@@ -30,26 +30,27 @@
 <body>
 
     <!-- NAV ---------->
-    <section id="nav" class="">
-        <nav class="">
-            <a href="index.html" class="logo">
-                <img class="nav-logo" src="images/Logo.svg" alt="Bobby J. Spencer Logo">
-            </a>
-            <div class="links-container">
-                <a href=" " class="navigation-link">Case Studies</a>
-                <a href=" " class="navigation-link">About</a>
-                <a href=" " class="navigation-link">Contact</a>
-            </div>
-        </nav>
-    </section>
+    <nav class="nav-bar">
+        <a href="index.html" class="logo">
+            <img class="nav-logo" src="images/Logo.svg" alt="Bobby J. Spencer Logo">
+        </a>
+        <div class="links-container">
+            <a href=" " class="navigation-link">Case Studies</a>
+            <a href=" " class="navigation-link">About</a>
+            <a href=" " class="navigation-link">Contact</a>
+        </div>
+    </nav>
 
     <!-- HERO CONTENT ---------->
     <div class="hero-image">
         <div class="hero-text">
             <h1 class="hero-title">Hi, I'm Bobby.</h1>
             <h3 class="hero-content">I'm a UX/UI designer living in Europe who is currently seeking opportunities in and around Luxembourg.</h3>
-            <div class="about-btn">
+            <div class="about">
                 <button type="button" class="about-btn">About Me</button>
+            </div>
+            <div class="arrow bounce">
+                <a class="fa fa-arrow-down fa-2x" href="#"></a>
             </div>
         </div>
     </div>
@@ -57,19 +58,19 @@
     <!-- PROJECTS --------->
     <section class="projects">
 
-        <div class="container">
-
-            <div id="moien" class="">
-                <h2 class="project-title">Moien</h2>
-                <div class="on-hover">
-                    <h3 class="project-subtitle">UX/UI | Branding</h3>
-                    <h5 class="project-content">A mobile app to track and order meals from local food trucks.</h5>
-                    <button type="button" class="case-study-moien">View Case Study</button>
+        <!-- MOIEN ---------->
+        <div class="moien-image">
+            <div class="moien-text">
+                <h2 class="moien-title">Moien</h2>
+                <h3 class="moien-type">UX/UI | Branding</h3>
+                <h5 class="moien-desc">A mobile app to track and order meals from local food trucks.</h5>
+                <div class="case-study">
+                    <button type="button" class="case-study-btn">View Case Study</button>
                 </div>
-                <a href=" ">
-                    <img src="images/moien1.png">
-                </a>
             </div>
+        </div>
+
+        <div class="container">
 
             <div id="apantry" class="">
                 <h3 class="project-title">American Pantry</h3>
@@ -142,8 +143,6 @@
     <!-- Possible JS & jQuery ---------->
     <script type="text/javascript" src="scripts/node_modules/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="scripts/scripts.js"></script>
-
-    <!-- END ---------->
 </body>
 
 </html>
