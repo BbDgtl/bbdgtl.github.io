@@ -1,9 +1,92 @@
 /* Placeholder for Raleways font details */
 
 
-/*font-family: 'Raleway', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* ********** GLOBAL STYLING ********** */
+
+
+/* Add the off-wite bg color to body */
+
+body,
+html {
+    background-color: #f5f3eb;
+    height: 100%;
+}
+
+
+/* ********* NAVIGATION BAR ********** */
+
+
+/* Style the logo */
+
+.nav-logo {
+    padding: 0 14px;
+}
+
+
+/* Style the links */
+
+.links-container,
+.navigation-link {
+    float: right;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 0 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.links-container a:hover {
+    color: #cd3d00;
+}
 
 .nav-logo {
     width: 175px;
     height: 30px;
+}
+
+
+/* ********** END Navbar ********** */
+
+
+/* ********** HERO CONTENT ********** */
+
+
+/* ********** The Hero Image ********** */
+
+.hero-image {
+    background-image: url("../images/blue.png");
+    margin: 0 auto;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Place the HERO TEXT in middle of image */
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f3eb;
+}
+
+
+/* Place the HERO BUTTON in middle of image */
+
+.about-btn {
+    text-align: center;
 }
