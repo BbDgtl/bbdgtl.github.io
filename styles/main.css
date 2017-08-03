@@ -7,6 +7,7 @@ body,
 html {
     background-color: #f5f3eb;
     margin: 0px 0px;
+    height: 100%;
 }
 
 
@@ -16,7 +17,7 @@ html {
 /* Style the logo */
 
 .nav-logo {
-    padding: 5px 14px 0px 14px;
+    padding: 7px 14px 0px 14px;
 }
 
 
@@ -28,9 +29,10 @@ html {
     display: block;
     color: #333333;
     text-align: center;
-    padding: 3px 14px 0px 14px;
+    padding: 4px 14px 0px 14px;
     text-decoration: none;
     font-size: 17px;
+    font-variant: small-caps;
 }
 
 
@@ -55,7 +57,7 @@ html {
 /* The Hero Image */
 
 .hero-image {
-    background-image: url("../images/blue.png");
+    background-image: url("../images/Blue-Cropped2.png");
     margin: 0 auto;
     padding: 0;
     height: 110vh;
@@ -76,7 +78,6 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f5f3eb;
-    padding-bottom: 300px;
 }
 
 .hero-title {
@@ -149,16 +150,34 @@ a:hover {
 
 /* MOIEN */
 
-.moien-image {
-    background-image: url("../images/moien1.png");
-    margin: 0 auto;
-    padding: 0;
+.moien-wrapper {
     height: 500px;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: inline-block;
     position: relative;
 }
 
-.moien-text {}
+.moien-img {
+    width: 100%;
+}
+
+.moien-text {
+    color: #f5f3eb;
+    position: relative;
+    left: 50px;
+    bottom: 500px;
+}
+
+
+/* AMERICAN PANTRY */
+
+.apantry-wrapper {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.apantry-img {
+    width: 100%;
+}
