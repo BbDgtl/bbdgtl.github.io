@@ -111,7 +111,7 @@ html {
 
 /* SCROLL DOWN ARROW */
 
-a {
+.arrow a {
     color: #f5f3eb;
     text-decoration: none;
 }
@@ -256,4 +256,30 @@ a:hover {
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
     transition: background-color .5s ease-out;
+}
+
+
+/* **********ABOUT ME SECTION********** */
+
+.abt-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-content-l {
+    float: left;
+    width: 48%;
+    margin-left: 0;
+}
+
+.about-content-r {
+    float: left;
+    width: 48%;
+    margin-left: 4%;
+}
+
+.about-lnk {
+    color: #333333;
+    text-decoration: none;
 }
