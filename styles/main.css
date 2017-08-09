@@ -266,7 +266,7 @@ a:hover {
 }
 
 .abt-title {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -330,3 +330,13 @@ a:hover {
 
 
 /* ********** FOOTER CONTENT ********** */
+
+.copyright {
+    float: left;
+    padding: 7px 14px 0px 14px;
+}
+
+.footer-logo {
+    float: right;
+    padding: 7px 14px 0px 14px;
+}
