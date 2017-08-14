@@ -14,10 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- FONTS ---------->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600i,900" rel="stylesheet">
 
     <!-- CSS ---------->
-    <link rel="stylesheet" type="text/css" href="styles/node_modules/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/Skeleton-2.0.4/css/normalize.css">
     <link rel="stylesheet" href="styles/Skeleton-2.0.4/css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -30,13 +31,14 @@
 <body>
 
     <!-- NAV ---------->
-    <nav class="nav-bar">
+
+    <nav class="navigation">
         <a href="index.html" class="logo">
             <img class="nav-logo" src="images/Logo.svg" alt="Bobby J. Spencer Logo">
         </a>
         <div class="links-container">
             <a href=" " class="navigation-link">Case Studies</a>
-            <a href=" " class="navigation-link">About</a>
+            <a href="about.html" class="navigation-link">About</a>
             <a href=" " class="navigation-link">Contact</a>
         </div>
     </nav>
@@ -44,14 +46,30 @@
     <!-- HERO CONTENT ---------->
     <div class="section hero">
         <div class="hero-image">
-            <div class="hero-text">
-                <h1 class="hero-title">Hi, I'm Bobby.</h1>
-                <h3 class="hero-content">I'm a UX/UI designer living in Europe who is currently seeking opportunities in and around Luxembourg.</h3>
-                <div class="about">
-                    <button type="button" class="about-btn">About Me</button>
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="hero-text">
+                        <h1 id="hero-title">Hi, I'm Bobby.</h1>
+                        <h3 class="hero-content">I'm a UX/UI designer living in Europe who is currently seeking opportunities in and around Luxembourg.</h3>
+                        <div class="about">
+                            <a href="about.html">
+                                <button type="button" class="about-btn">About Me</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="arrow bounce">
-                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+            </div>
+
+            <!-- ICON SCROLL -->
+
+            <div class="icon-scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="a1"></span>
+                    <span class="a2"></span>
+                    <span class="a3"></span>
                 </div>
             </div>
         </div>
@@ -60,14 +78,22 @@
     <!-- PROJECTS --------->
 
     <!-- MOIEN ---------->
-    <div class="moien-wrapper">
-        <div class="moien-img">
-            <div class="overlay">
-                <div class="on-hover">
-                    <h1 class="project-title">Moien</h1>
-                    <h2 class="project-type">UX/UI | Branding</h2>
-                    <div class="description">
-                        <h3 class="project-desc">A mobile app to track and order meals from local food trucks.</h3>
+
+    <div class="moien-img">
+        <div class="overlay">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="six columns">
+                            <h1 class="project-title">Moien</h1></div>
+                        <div class="six columns">
+                            <h2 class="project-type">UX/UI | Branding</h2></div>
+                    </div>
+                </div>
+                <div class="container description">
+                    <div class="row">
+                        <div class="twelve columns">
+                            <h3 class="project-desc">A mobile app to track and order meals from local food trucks.</h3></div>
                         <div class="case-study">
                             <button type="button" class="case-study-btn">View Case Study</button>
                         </div>
@@ -78,13 +104,20 @@
     </div>
 
     <!-- AMERICAN PANTRY ---------->
-    <div class="apantry-wrapper">
-        <div class="apantry-img">
-            <div class="overlay">
-                <div class="on-hover">
-                    <h2 class="project-title">American Pantry</h2>
-                    <h3 class="project-type">UX/UI | Branding</h3>
-                    <div class="description">
+
+    <div class="apantry-img">
+        <div class="overlay">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="six columns">
+                            <h1 class="project-title">American Pantry</h1></div>
+                        <div class="six columns">
+                            <h2 class="project-type">UX/UI | Branding</h2></div>
+                    </div>
+                </div>
+                <div class="container description">
+                    <div class="row">
                         <h3 class="project-desc">An e-commerce site catering to the needs of the American expat.</h3>
                         <div class="case-study">
                             <button type="button" class="case-study-btn">View Case Study</button>
@@ -98,17 +131,15 @@
     <!-- ABOUT SECTION ---------->
     <div class="abt-section">
         <div class="container">
-            <div class="twelve columns offset-by-half">
-                <h2 class="abt-title">About Me</h2>
-                <div class="row">
-                    <div class="about-content-l">
-                        <p class="about-me-bio">I'm an American UX/UI designer and front-end developer based out of Luxembourg City in the tiny country of Luxembourg. I'm searching for a forward-moving team in which I can contribute and continue to learn and grow. I'm currently seeking opportunities in and around Luxembourg, Germany, France and Belgium.</p>
-                        <p class="about-me-bio">When I'm not designing, I enjoy spending time with my partner and my dog, travelling and cycling through the beautiful countryside in which I currently live. I'm also an avid gamer, artist, sci-fi/fantasy geek and foodie, pretty much in that order! I am conversational in the german language and am currently learning french.</p>
-                    </div>
-                    <div class="about-content-r">
-                        <img src="images/Photo.png">
-                        <h5><a href=" " class="about-lnk">Want to know more?</a></h5>
-                    </div>
+            <h2 class="abt-title">About Me</h2>
+            <div class="row">
+                <div class="about-content-l six columns">
+                    <p class="about-me-bio">I'm an American UX/UI designer and front-end developer based out of Luxembourg City in the tiny country of Luxembourg. I'm searching for a forward-moving team in which I can contribute and continue to learn and grow. I'm currently seeking opportunities in and around Luxembourg, Germany, France and Belgium.</p>
+                    <p class="about-me-bio">When I'm not designing, I enjoy spending time with my partner and my dog, travelling and cycling through the beautiful countryside in which I currently live. I'm also an avid gamer, artist, sci-fi/fantasy geek and foodie, pretty much in that order! I am conversational in the german language and am currently learning french.</p>
+                </div>
+                <div class="about-content-r six columns">
+                    <img src="images/Photo.png">
+                    <h5><a href="about.html" class="about-lnk">Want to know more?</a></h5>
                 </div>
             </div>
         </div>
@@ -124,6 +155,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- FOOTER ---------->
 
