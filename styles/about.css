@@ -56,11 +56,12 @@ html {
 
 /* The Hero Image */
 
-.hero-image {
-    background-image: url("../images/Bridge-1280x600.png");
+#hero-content {
+    background-image: url("../images/lighthouse2.png");
+    opacity: 60%;
     margin: 0 auto;
     padding: 0;
-    height: 110vh;
+    height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,13 +72,9 @@ html {
 
 /* Place the HERO TEXT in middle of image */
 
-.hero-title {
-    font-size: 100px;
-    font-weight: 100;
-}
-
 .hero-text {
     text-align: center;
+    font-weight: 100;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,70 +82,42 @@ html {
     color: #f5f3eb;
 }
 
-
-/* SCROLL DOWN ARROW */
-
-.arrow a {
-    color: #f5f3eb;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #cd3d00;
-}
-
-.arrow {
-    text-align: center;
-    margin: 8% 0;
-    position: relative;
-}
-
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
+.einstein {
+    float: right;
+    font-size: 35px;
 }
 
 
 /* ********** BIOGRAPHY SECTION ********** */
 
 .biography {
+    height: 800px;
+    max-width: 100%;
+}
+
+.bio2 {
     height: 600px;
-    text-align: left;
-    margin: 0 auto;
-    width: 100%;
+    width: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .column-1 {
     float: left;
-    width: 78%;
+    width: 48%;
     margin-left: 0;
 }
 
 .column-2 {
-    display: block;
-    float: right;
-    width: 18%;
+    float: left;
+    width: 48%;
     margin-left: 4%;
 }
 
 .bottom-section {
+    padding-top: 25px;
     display: inline-block;
 }
 
@@ -159,6 +128,33 @@ a:hover {
     height: 600px;
     width: 100%;
     background-color: #cd3d00;
+}
+
+.skills-group {
+    color: #f5f3eb;
+    height: 600px;
+    width: 60%;
+    position: relative;
+    padding-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills {
+    float: left;
+    width: 48%;
+    margin-left: 0;
+}
+
+.tools {
+    float: left;
+    width: 48%;
+    margin-left: 4%;
+}
+
+.language {
+    display: inline-block;
 }
 
 
@@ -206,6 +202,11 @@ a:hover {
     color: #f5f3eb;
 }
 
+.except {
+    font-weight: 100;
+    font-style: italic;
+}
+
 
 /* ********** CONTACT SECTION ********** */
 
@@ -216,20 +217,34 @@ a:hover {
     position: relative;
 }
 
-.contact-section {
+.msg {
+    padding-top: 50px;
     text-align: center;
-    max-width: 60%;
-    padding-bottom: 5%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #f5f3eb;
 }
 
-.contact-btn {
+.contact-txt {
+    text-align: center;
+    width: 100%;
+    color: #f5f3eb;
+    font-size: 18px;
+}
+
+.form {
+    text-align: center;
+    width: 100%;
+}
+
+.form textarea {
+    display: block;
+    margin: 0 auto;
+    width: 31%;
+}
+
+.form button {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: 200;
     color: #f5f3eb;
     line-height: 1em;
     border: #cd3d00;
