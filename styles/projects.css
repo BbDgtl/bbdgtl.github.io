@@ -1,0 +1,614 @@
+/* ********** GLOBAL STYLING ********** */
+
+
+/* Add the off-wite bg color to body */
+
+body,
+html {
+    background-color: #f5f3eb;
+    margin: 0px 0px;
+    height: 100%;
+}
+
+button {
+    font-weight: 300;
+}
+
+
+/* ********* NAVIGATION BAR ********** */
+
+
+/* Style the logo */
+
+.nav-logo {
+    padding: 7px 14px 0px 14px;
+}
+
+
+/* Style the links */
+
+.links-container,
+.navigation-link {
+    float: right;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 4px 14px 0px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    font-variant: small-caps;
+}
+
+
+/* Change the color of links on hover */
+
+.links-container a:hover {
+    color: #cd3d00;
+}
+
+.nav-logo {
+    width: 175px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ********** END Navbar ********** */
+
+
+/* ********** HERO CONTENT ********** */
+
+
+/* The Hero Image */
+
+#hero-content {
+    background-image: url("../images/moien-hero.png");
+    opacity: 60%;
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 100px;
+    color: #f5f3eb;
+}
+
+
+/* Place the HERO TEXT in middle of image */
+
+.hero-text {
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00A1DE;
+}
+
+.hero-btn {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+    color: #f5f3eb;
+    line-height: 1em;
+    border: #ED2939;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.hero-btn:hover {
+    background-color: #ED2939;
+    border: none;
+    color: #f5f3eb;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.prototype-btn {
+    padding-top: 20px;
+    padding-right: 28px;
+}
+
+
+/* ********** Moien - Description ********** */
+
+
+/* OVERLAY IMG */
+
+.picnic-content {
+    background-image: url("../images/moien-picnic.png");
+    margin: 0 auto;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.picnic-content:hover > .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: .75;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.picnic-dsc {
+    color: #f5f3eb;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 150px;
+}
+
+.footnote {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+/* THE PROBLEM */
+
+.problem-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.problem {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    padding-top: 125px
+}
+
+
+/* ONBOARD */
+
+.moien-onboard {
+    background-image: url("../images/moien-onboard.jpg");
+    margin: 0 auto;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* THE SOLUTION */
+
+.solution-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.solution {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 100px
+}
+
+
+/* USER RESEARCH */
+
+.research-container {
+    background-color: #dcdad3;
+}
+
+.research {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.research-title {
+    font-weight: 200;
+}
+
+.graph {
+    height: 500px;
+}
+
+.graph-img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* KNOW YOUR USER */
+
+.user-container {
+    background-color: #dcdad3;
+}
+
+.user {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+    height: 300px;
+}
+
+.user-title {
+    font-weight: 200;
+}
+
+
+/* Personas */
+
+.personas-container {
+    height: 800px;
+}
+
+.personas-img {
+    text-align: center;
+    padding-top: 95px;
+}
+
+
+/* KNOW YOUR COMPETITOR */
+
+.competitor-container {
+    background-color: #dcdad3;
+}
+
+.competitor {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+    height: 300px;
+}
+
+.competitor-title {
+    font-weight: 200;
+}
+
+.competitor-container2 {
+    height: 500px;
+}
+
+.competitor-img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* INFORMATION ARCHITECTURE */
+
+.information-container {
+    background-color: #dcdad3;
+}
+
+.information {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 300px;
+}
+
+.information-title {
+    font-weight: 200;
+}
+
+.information-section {
+    width: 100%;
+    height: 500px;
+}
+
+.information-container2 {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+
+.information-container3 {
+    background-color: #dcdad3;
+    height: 300px;
+}
+
+.information-img {
+    padding: 25px;
+    float: left;
+}
+
+.userflow-img {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+/* BALSAMIQ MOCKUPS */
+
+.mockups-container {
+    height: 750px;
+    width: 100%;
+}
+
+.mockups-img {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* VISUAL DESIGN */
+
+.design-container {
+    background-color: #dcdad3;
+}
+
+.design {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+    height: 300px;
+}
+
+.design-title {
+    font-weight: 200;
+}
+
+
+/* SKETCHES */
+
+.sketches-container {
+    height: 500px;
+    width: 100%;
+}
+
+.sketch-imgs {
+    width: 70%;
+    top: 15%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sketch-img1 {
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+.sketch-img2 {
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+.sketch-img3 {
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+
+/* VISUAL DESIGN */
+
+.design-container2 {
+    background-color: #dcdad3;
+}
+
+.design {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    height: 300px;
+}
+
+
+/* VISUAL DESIGN PT3 */
+
+.mindmap-img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.styleguide-img {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+/* PROTOTYPE */
+
+.prototype-container {
+    background-color: #dcdad3;
+}
+
+.prototype {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 300px;
+}
+
+.prototype-title {
+    font-weight: 200;
+}
+
+
+/* PROTOTYPE PT2 */
+
+.prototype-content {
+    background-image: url("../images/prototype.png");
+    opacity: 60%;
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.prototype-text {
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    padding-top: 175px;
+    color: #f5f3eb;
+}
+
+.prototype-content:hover > .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: .75;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+
+/* THE CONCLUSION */
+
+.conclusion-container {
+    background-color: #dcdad3;
+}
+
+.conclusion {
+    color: #333333;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 300px;
+}
+
+.conclusion-title {
+    font-weight: 200;
+}
+
+
+/* OLD CODE */
+
+
+/* ********** CONTACT SECTION ********** */
+
+.skyline-img {
+    background-image: url("../images/Skyline-1280x500.png");
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.msg {
+    padding-top: 50px;
+    text-align: center;
+    color: #f5f3eb;
+}
+
+.contact-txt {
+    text-align: center;
+    width: 100%;
+    color: #f5f3eb;
+    font-size: 18px;
+}
+
+.form {
+    text-align: center;
+    padding-left: 200px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    float: left;
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+.form button {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #f5f3eb;
+    line-height: 1em;
+    border: #cd3d00;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #cd3d00;
+    border: none;
+    color: #f5f3eb;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+
+/* ********** FOOTER CONTENT ********** */
+
+.copyright {
+    float: left;
+    padding: 7px 14px 0px 14px;
+}
+
+.social-media {
+    color: #333333;
+    padding: 0px 20px 0 20px;
+}
+
+.footer-logo {
+    float: right;
+    padding: 7px 14px 0px 14px;
+}
