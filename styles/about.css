@@ -10,6 +10,10 @@ html {
     height: 100%;
 }
 
+button {
+    font-weight: 300;
+}
+
 
 /* ********* NAVIGATION BAR ********** */
 
@@ -91,17 +95,16 @@ html {
 /* ********** BIOGRAPHY SECTION ********** */
 
 .biography {
-    height: 800px;
-    max-width: 100%;
+    height: 0 px;
+    overflow: hidden;
 }
 
 .bio2 {
-    height: 600px;
+    padding: 50px 0 50px 0;
     width: 60%;
     position: relative;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 .column-1 {
@@ -116,29 +119,26 @@ html {
     margin-left: 4%;
 }
 
-.bottom-section {
-    padding-top: 25px;
-    display: inline-block;
+#skillz {
+    font-style: italic;
 }
 
 
 /* ********** SKILLS & TOOLS ********** */
 
 .skill-table {
-    height: 600px;
-    width: 100%;
+    height: 0 px;
+    overflow: hidden;
     background-color: #cd3d00;
 }
 
 .skills-group {
     color: #f5f3eb;
-    height: 600px;
     width: 60%;
+    padding: 50px 0 50px 0;
     position: relative;
-    padding-top: 200px;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 .skills {
@@ -155,6 +155,31 @@ html {
 
 .language {
     display: inline-block;
+}
+
+.cv-parent {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cv-btn {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #f5f3eb;
+    line-height: 1em;
+    border: #f5f3eb;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cv-btn:hover {
+    background-color: #f5f3eb;
+    border: none;
+    color: #cd3e00;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
 }
 
 
@@ -232,13 +257,25 @@ html {
 
 .form {
     text-align: center;
-    width: 100%;
+    padding-left: 200px;
+    margin: 0 auto;
+    width: 500px;
 }
 
 .form textarea {
     display: block;
-    margin: 0 auto;
-    width: 31%;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    float: left;
+    padding-top: 70px;
+    padding-left: 15px;
 }
 
 .form button {
@@ -250,6 +287,7 @@ html {
     border: #cd3d00;
     border-style: solid;
     border-width: 2px;
+    margin-top: 10px;
 }
 
 .contact-btn:hover {
@@ -268,6 +306,11 @@ html {
 .copyright {
     float: left;
     padding: 7px 14px 0px 14px;
+}
+
+.social-media {
+    color: #333333;
+    padding: 0px 20px 0 20px;
 }
 
 .footer-logo {

@@ -21,6 +21,20 @@ a:hover {
     color: #cd3d00;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* ********* NAVIGATION BAR ********** */
 
@@ -445,6 +459,7 @@ a:hover {
 }
 
 .contact-lnks {
+    text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -452,12 +467,21 @@ a:hover {
 
 /* ********** FOOTER CONTENT ********** */
 
+.footer {
+    width: 100%;
+}
+
 .copyright {
     float: left;
     padding: 7px 14px 0px 14px;
 }
 
+.social-media {
+    color: #333333;
+    padding: 0px 20px 0 20px;
+}
+
 .footer-logo {
     float: right;
-    padding: 7px 14px 0px 14px;
+    padding: 7px 0 0 0 14px;
 }

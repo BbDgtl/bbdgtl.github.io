@@ -36,9 +36,9 @@
             <img class="nav-logo" src="images/Logo.svg" alt="Bobby J. Spencer Logo">
         </a>
         <div class="links-container">
-            <a href="index.html" class="navigation-link">Case Studies</a>
+            <a href="#bottom" class="navigation-link">Contact</a>
             <a href="about.html" class="navigation-link">About</a>
-            <a href=" " class="navigation-link">Contact</a>
+            <a href="index.html#case-studies" class="navigation-link">Case Studies</a>
         </div>
     </nav>
 
@@ -46,24 +46,22 @@
     <div class="section hero">
         <div id="hero-content">
             <div class=" ">
-                <h1 class="hero-text">"A ship is always safe at the shore, but that is not what its built for."<br><span class="einstein"> - Albert Einstein</span></h1>
+                <h1 class="hero-text">"A ship is always safe at the shore, but that is not what it is built for."<br><span class="einstein"> - Albert Einstein</span></h1>
             </div>
         </div>
     </div>
 
     <!-- BIOGRAPHY --------->
-    <div class="biography">
-        <div class="bio2">
+    <div class="biography" id="outer">
+        <div class="bio2" id="inner">
             <div class="column-1">
                 <p>My path into design was not direct; but full of detours, segways and quite a few u-turns. I spent the last ten years working as a cafe manager for a coffee company in Seattle, Washington. In this position, I learned an incredible amount about how to grow a business, how to coach successful employees and the ins and outs of effective marketing.</p>
                 <p><span class="emphasized">Solving problems is at the heart of UX.</span> Fortunately, this is a skill that I developed while managing a high-volume cafe and then fine-tuned during my apprenticeship learning UX/UI design with Bloc.</p>
+                <p>Recently, life has taken me on an incredible journey across the Atlantic, landing here in Europe; and has given me the opportunity to embrace a new life and sort of re-invent myself. I've spent this year devoting my time to UX/UI design, while gaining further inspiration travelling and exploring my new home.</p>
+                <p>I'm seeking opportunities with a forward-thinking team of innovators that will allow me to continue to develop and grow as a designer while contributing to the success of the team as a whole. I bring to the table a passion for design with an impeccable attention to detail, <span id="skillz">as well as the following skillset:</span></p>
             </div>
             <div class="column-2">
                 <img src="images/Photo.png">
-            </div>
-            <div class="bottom-section">
-                <p>Recently, life has taken me on an incredible journey across the Atlantic, landing here in Europe; and has given me the opportunity to embrace a new life and sort of re-invent myself. I've spent this year devoting my time to UX/UI design, while gaining further inspiration travelling and exploring my new home.</p>
-                <p>I'm seeking opportunities with a forward-thinking team of innovators that will allow me to continue to develop and grow as a designer while contributing to the success of the team as a whole. I bring to the table a passion for design with an impeccable attention to detail, as well as the following skillset:</p>
             </div>
         </div>
     </div>
@@ -96,6 +94,11 @@
                     <li>Javascript</li>
                     <li>Google Docs/Microsoft Office</li>
                 </ul>
+                <div class="cv-parent">
+                    <a href="about.html">
+                        <button type="button" class="cv-btn">View my CV</button>
+                    </a>
+                </div>
             </div>
             <div class="four columns language">
                 <h5 class="skillset-title">Language Proficiencies:</h5>
@@ -122,7 +125,7 @@
 
     <!-- CONTACT SECTION ---------->
     <div class="skyline-img">
-        <div class="container contact">
+        <div class="container contact" id="bottom">
             <div class="twelve columns">
                 <h4 class="msg">Thanks for stopping by!</h4>
                 <div class="row">
@@ -131,10 +134,14 @@
                     </div>
                     <div class="form">
                         <form action="https://formspree.io/bbdgtl@gmail.com" method="POST">
-                            <input type="text" name="name" placeholder="name">
-                            <input type="email" name="_replyto" placeholder="email">
-                            <textarea name="message" placeholder="message"></textarea>
-                            <button type="submit" class="contact-btn">Send</button>
+                            <div class="left">
+                                <input type="text" name="name" placeholder="name">
+                                <input type="email" name="_replyto" placeholder="email">
+                                <textarea name="message" placeholder="message"></textarea>
+                            </div>
+                            <div class="right">
+                                <button type="submit" class="contact-btn">Send</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -146,6 +153,10 @@
     <footer>
         <div class="footer">
             <p class="copyright">&copy;2017 Bobby J. Spencer | All rights reserved.</p>
+            <a href=" " class="social-media"><img src="images/LinkedIn.png" /></a>
+            <a href=" " class="social-media"><img src="images/Github.png" /></a>
+            <a href=" " class="social-media"><img src="images/Dribble.png" /></a>
+            <a href=" " class="social-media"><img src="images/Twitter.png" /></a>
             <a href="index.html" class="footer-logo">
                 <img class="nav-logo" src="images/Logo.svg" alt="Bobby J. Spencer Logo">
             </a>
