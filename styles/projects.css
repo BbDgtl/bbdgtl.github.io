@@ -71,6 +71,16 @@ a {
     position: relative;
 }
 
+#hero-content-ap {
+    background-image: url("../images/apantry-dark.png");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .hero-title {
     font-size: 100px;
     color: #f5f3eb;
@@ -124,8 +134,15 @@ a {
     max-width: 60%;
     margin: 0 auto;
     position: relative;
-    height: 500px;
-    padding-top: 100px;
+    padding: 100px 0 100px 0;
+}
+
+.picnic-dsc-ap {
+    color: #333333;
+    padding: 100px 0 100px 0;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 .footnote {
@@ -135,6 +152,16 @@ a {
 
 .picnic-content {
     background-image: url("../images/moien-picnic.png");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.picnic-content-ap {
+    background-image: url("../images/laptop-ap.png");
     height: 600px;
     width: 100%;
     background-position: center;
@@ -157,8 +184,15 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    height: 500px;
-    padding-top: 100px
+    padding: 100px 0 100px 0;
+}
+
+.problem-ap {
+    color: #333333;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
 }
 
 
@@ -166,6 +200,18 @@ a {
 
 .moien-onboard {
     background-image: url("../images/moien-onboard.jpg");
+    margin: 0 auto;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.desktop-ap {
+    background-image: url("../images/desktop-ap.png");
     margin: 0 auto;
     padding: 0;
     height: 600px;
@@ -190,8 +236,15 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    height: 400px;
-    padding-top: 100px
+    padding: 100px 0 100px 0;
+}
+
+.solution-ap {
+    color: #333333;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 100px 0
 }
 
 
@@ -201,26 +254,25 @@ a {
     background-color: #dcdad3;
 }
 
+.research-title {
+    font-weight: 200;
+}
+
 .research {
     color: #333333;
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    height: 400px;
-}
-
-.research-title {
-    font-weight: 200;
+    padding: 100px 0 100px 0;
 }
 
 .graph {
-    height: 500px;
+    width: 100%;
 }
 
 .graph-img {
     text-align: center;
-    padding-top: 100px;
+    padding: 100px 0 100px 0;
 }
 
 
@@ -235,8 +287,15 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    height: 300px;
+    padding: 100px 0 100px 0;
+}
+
+.user-ap {
+    color: #333333;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
 }
 
 .user-title {
@@ -267,8 +326,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    height: 400px;
+    padding: 100px 0 100px 0;
 }
 
 .competitor-title {
@@ -279,6 +337,10 @@ a {
     height: 500px;
 }
 
+.competitor-container2-ap {
+    height: 675px;
+}
+
 .competitor-img {
     text-align: center;
     padding-top: 100px;
@@ -287,38 +349,53 @@ a {
 
 /* INFORMATION ARCHITECTURE */
 
-.information-container {
-    background-color: #dcdad3;
+.info-arch {
+    width: 100%;
+    padding: 100px 0 100px 0;
 }
 
-.information {
+.info-title {
+    font-weight: 200;
+}
+
+.info {
     color: #333333;
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    height: 300px;
 }
 
-.information-title {
-    font-weight: 200;
-}
-
-.information-section {
-    width: 100%;
-    height: 500px;
-}
-
-.information-container2 {
-    margin: auto;
-    position: relative;
-    width: 55%;
-    padding-left: 80px;
-}
-
-.information-container3 {
+.info-container {
     background-color: #dcdad3;
-    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.information-ap {
+    background-color: #dcdad3;
+    color: #333333;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+}
+
+.information-section-ap {
+    padding: 100px 0 100px 0;
+    text-align: center;
+    width: 80%;
+}
+
+.info-imgs {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0 50px 0;
+}
+
+.userflow-img {
+    text-align: center;
+    padding: 50px 0 100px 0;
 }
 
 .information-img {
@@ -326,22 +403,17 @@ a {
     float: left;
 }
 
-.userflow-img {
-    text-align: center;
-    padding-bottom: 100px;
+.information-img-ap {
+    float: left;
+    padding: 25px;
 }
 
 
 /* BALSAMIQ MOCKUPS */
 
-.mockups-container {
-    height: 750px;
-    width: 100%;
-}
-
 .mockups-img {
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
 }
 
 
@@ -356,8 +428,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 90px;
-    height: 425px;
+    padding: 100px 0 100px 0;
 }
 
 .design-title {
@@ -372,34 +443,29 @@ a {
 /* SKETCHES */
 
 .sketches-container {
-    margin: auto;
-    height: 500px;
-    width: 62%;
+    width: 100%;
+    text-align: center;
 }
 
 .sketch-imgs {
-    width: 70%;
-    top: 15%;
-    position: relative;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 100px 0 100px 0;
 }
 
 .sketch-img1 {
-    display: inline;
+    padding: 25px 25px 25px 80px;
     float: left;
-    padding: 20px;
 }
 
 .sketch-img2 {
-    display: inline;
+    padding: 25px;
     float: left;
-    padding: 20px;
 }
 
 .sketch-img3 {
-    display: inline;
-    float: left;
-    padding: 20px;
+    padding: 25px;
 }
 
 
@@ -442,12 +508,10 @@ a {
 
 .prototype {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 300px;
+    padding: 100px 0 100px 0;
 }
 
 .prototype-title {
@@ -461,11 +525,11 @@ a {
 
 /* MOIEN */
 
-.moien-img {
-    background-image: url("../images/prototype.png");
+.apantry-img {
+    background-image: url("../images/Apantry-1280x500.png");
     margin: 0 auto;
     padding: 0;
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -473,7 +537,7 @@ a {
     position: relative;
 }
 
-.moien-img:hover > .overlay {
+.apantry-img:hover > .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -551,8 +615,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    height: 300px;
+    padding: 100px 0 100px 0;
 }
 
 .conclusion-title {
