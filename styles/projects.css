@@ -56,9 +56,6 @@ a {
 }
 
 
-/* ********** END Navbar ********** */
-
-
 /* ********** HERO CONTENT ********** */
 
 
@@ -66,9 +63,6 @@ a {
 
 #hero-content {
     background-image: url("../images/moien-hero.png");
-    opacity: 60%;
-    margin: 0 auto;
-    padding: 0;
     height: 500px;
     width: 100%;
     background-position: center;
@@ -124,13 +118,23 @@ a {
 
 /* ********** Moien - Description ********** */
 
+.picnic-dsc {
+    color: #333333;
+    font-size: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+    position: relative;
+    height: 500px;
+    padding-top: 100px;
+}
 
-/* OVERLAY IMG */
+.footnote {
+    font-size: 12px;
+    font-weight: 100;
+}
 
 .picnic-content {
     background-image: url("../images/moien-picnic.png");
-    margin: 0 auto;
-    padding: 0;
     height: 600px;
     width: 100%;
     background-position: center;
@@ -139,47 +143,22 @@ a {
     position: relative;
 }
 
-.picnic-content:hover > .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #000;
-    opacity: .75;
-    -webkit-transition: background-color .5s ease-out;
-    -moz-transition: background-color .5s ease-out;
-    -o-transition: background-color .5s ease-out;
-    transition: background-color .5s ease-out;
-}
-
-.picnic-dsc {
-    color: #f5f3eb;
-    font-size: 18px;
-    max-width: 60%;
-    margin: 0 auto;
-    position: relative;
-    padding-top: 150px;
-}
-
-.footnote {
-    font-size: 12px;
-    font-weight: 100;
-}
-
 
 /* THE PROBLEM */
 
 .problem-title {
+    font-size: 60px;
     text-align: center;
     font-weight: 500;
 }
 
 .problem {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    height: 400px;
-    padding-top: 125px
+    height: 500px;
+    padding-top: 100px
 }
 
 
@@ -201,16 +180,17 @@ a {
 /* THE SOLUTION */
 
 .solution-title {
+    font-size: 60px;
     text-align: center;
     font-weight: 500;
 }
 
 .solution {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    height: 300px;
+    height: 400px;
     padding-top: 100px
 }
 
@@ -223,7 +203,7 @@ a {
 
 .research {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 100px;
@@ -252,10 +232,10 @@ a {
 
 .user {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 100px;
     height: 300px;
 }
 
@@ -284,11 +264,11 @@ a {
 
 .competitor {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 90px;
-    height: 300px;
+    padding-top: 100px;
+    height: 400px;
 }
 
 .competitor-title {
@@ -313,7 +293,7 @@ a {
 
 .information {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 100px;
@@ -330,9 +310,10 @@ a {
 }
 
 .information-container2 {
-    margin: 0 auto;
+    margin: auto;
     position: relative;
-    width: 80%;
+    width: 55%;
+    padding-left: 80px;
 }
 
 .information-container3 {
@@ -372,23 +353,28 @@ a {
 
 .design {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 90px;
-    height: 300px;
+    height: 425px;
 }
 
 .design-title {
     font-weight: 200;
 }
 
+.design-desc {
+    font-size: 24px;
+}
+
 
 /* SKETCHES */
 
 .sketches-container {
+    margin: auto;
     height: 500px;
-    width: 100%;
+    width: 62%;
 }
 
 .sketch-imgs {
@@ -423,7 +409,7 @@ a {
     background-color: #dcdad3;
 }
 
-.design {
+.design2 {
     color: #333333;
     font-size: 18px;
     max-width: 60%;
@@ -468,15 +454,18 @@ a {
     font-weight: 200;
 }
 
+.prototype-desc {
+    font-size: 24px;
+}
 
-/* PROTOTYPE PT2 */
 
-.prototype-content {
+/* MOIEN */
+
+.moien-img {
     background-image: url("../images/prototype.png");
-    opacity: 60%;
     margin: 0 auto;
     padding: 0;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -484,20 +473,66 @@ a {
     position: relative;
 }
 
-.prototype-text {
-    text-align: center;
-    font-weight: 100;
-    position: relative;
-    padding-top: 175px;
-    color: #f5f3eb;
-}
-
-.prototype-content:hover > .overlay {
+.moien-img:hover > .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     background-color: #000;
     opacity: .75;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.content {
+    padding-top: 2%;
+}
+
+.overlay {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.project-title {
+    float: left;
+    padding: 7px 14px 7px 14px;
+    color: #f5f3eb;
+}
+
+.project-type {
+    float: right;
+    padding: 25px 14px 7px 14px;
+    color: #f5f3eb;
+}
+
+.description {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f3eb;
+}
+
+.case-study-btn {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #f5f3eb;
+    line-height: 1em;
+    border: #cd3d00;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.case-study-btn:hover {
+    background-color: #cd3d00;
+    border: none;
+    color: #f5f3eb;
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
@@ -513,7 +548,7 @@ a {
 
 .conclusion {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 100px;
@@ -521,11 +556,10 @@ a {
 }
 
 .conclusion-title {
-    font-weight: 200;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
 }
-
-
-/* OLD CODE */
 
 
 /* ********** CONTACT SECTION ********** */
@@ -537,43 +571,23 @@ a {
     position: relative;
 }
 
-.msg {
-    padding-top: 50px;
+.contact-container {
+    padding-top: 100px;
+    width: 60%;
     text-align: center;
-    color: #f5f3eb;
+    margin: 0 auto;
 }
 
 .contact-txt {
     text-align: center;
     width: 100%;
     color: #f5f3eb;
-    font-size: 18px;
+    font-size: 24px;
 }
 
-.form {
-    text-align: center;
-    padding-left: 200px;
-    margin: 0 auto;
-    width: 500px;
-}
+.contact-btns {}
 
-.form textarea {
-    display: block;
-    width: 100%;
-}
-
-.left {
-    float: left;
-    width: 60%;
-}
-
-.right {
-    float: left;
-    padding-top: 70px;
-    padding-left: 15px;
-}
-
-.form button {
+.contact-btn {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 200;
@@ -582,7 +596,7 @@ a {
     border: #cd3d00;
     border-style: solid;
     border-width: 2px;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 .contact-btn:hover {
