@@ -497,7 +497,7 @@ a {
 
 /* ********** MEDIA QUERIES ********** */
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 1024px) {
     /* NAVBAR CHANGES */
     .second-logo {
         display: none;
@@ -515,7 +515,7 @@ a {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1024px) {
     /* NAVBAR CHANGES */
     .main-logo {
         display: none;
