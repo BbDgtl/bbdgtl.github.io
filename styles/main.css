@@ -313,10 +313,40 @@ a {
 }
 
 
+/* MOIEN - MOBILE */
+
+.moien-img2 {
+    background-image: url("../images/moien-hero.png");
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 /* AMERICAN PANTRY */
 
 .apantry-img {
     background-image: url("../images/Apantry-1280x500.png");
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* AMERICAN PANTRY MOBILE */
+
+.apantry-img2 {
+    background-image: url("../images/apantry-dark.png");
     margin: 0 auto;
     padding: 0;
     height: 500px;
@@ -499,13 +529,73 @@ a {
 /* ********** MEDIA QUERIES ********** */
 
 @media screen and (min-width: 550px) {
+    /* NAVBAR CHANGES */
     .second-logo {
+        display: none;
+    }
+    /* PROJECT CHANGES */
+    .moien-img2 {
+        display: none;
+    }
+    .apantry-img2 {
+        display: none;
+    }
+    /* CONTACT SECTION CHANGES */
+    .contact-msg2 {
         display: none;
     }
 }
 
 @media screen and (max-width: 550px) {
+    /* NAVBAR CHANGES */
     .main-logo {
         display: none;
+    }
+    /* HERO CHANGES */
+    .icon-scroll {
+        display: none;
+    }
+    .about-btn {
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #f5f3eb;
+        line-height: 1em;
+        background-color: #cd3d00;
+    }
+    /* PROJECTS CHANGES */
+    /* MOIEN SPECIFIC */
+    .moien-img {
+        display: none;
+    }
+    /* APANTRY SPECIFIC */
+    .apantry-img {
+        display: none;
+    }
+    /* BOTH PROJECTS */
+    .project-title {
+        float: right;
+    }
+    .case-study-btn {
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #f5f3eb;
+        line-height: 1em;
+        background-color: #cd3d00;
+    }
+    /* CONTACT SECTION */
+    .contact-msg {
+        display: none;
+    }
+    .contact-btn {
+        margin: 0 auto;
+        display: block;
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #f5f3eb;
+        line-height: 1em;
+        background-color: #cd3d00;
+    }
+    .contact-section {
+        padding-bottom: 150px;
     }
 }
