@@ -41,22 +41,28 @@ a {
 
 /* Style the logo */
 
+.logos {
+    width: 25%;
+}
+
 .nav-logo {
     padding: 7px 14px 0px 14px;
-    width: 175px;
+    position: relative;
     height: 30px;
 }
 
 
 /* Style the links */
 
-#links-container,
-.navigation-link {
+#links-container {
+    width: 25%;
+    display: inline;
     float: right;
-    display: block;
+}
+
+.navigation-link {
+    padding: 7px 14px 7px 14px;
     color: #333333;
-    text-align: center;
-    padding: 4px 14px 0px 14px;
     text-decoration: none;
     font-size: 17px;
     font-variant: small-caps;
@@ -484,4 +490,19 @@ a {
 .footer-logo {
     float: right;
     padding: 7px 0 0 0 14px;
+}
+
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 550px) {
+    .second-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main-logo {
+        display: none;
+    }
 }
