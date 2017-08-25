@@ -41,8 +41,12 @@ a {
 
 /* Style the logo */
 
+.navigation {
+    width: 100%;
+}
+
 .logos {
-    width: 25%;
+    width: 20%;
 }
 
 .nav-logo {
@@ -55,12 +59,11 @@ a {
 /* Style the links */
 
 #links-container {
-    width: 25%;
-    display: inline;
     float: right;
 }
 
 .navigation-link {
+    display: inline-block;
     padding: 7px 14px 7px 14px;
     color: #333333;
     text-decoration: none;
