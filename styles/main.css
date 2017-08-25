@@ -423,39 +423,6 @@ a {
 }
 
 
-/* ********** ABOUT ME SECTION ********** */
-
-.abt-section {
-    height: 600px;
-}
-
-.abt-title {
-    margin-top: 5%;
-    text-align: center;
-}
-
-.about-content-l {
-    float: left;
-    width: 48%;
-    margin-left: 0;
-}
-
-.about-content-r {
-    float: left;
-    width: 48%;
-    margin-left: 4%;
-}
-
-.about-lnk {
-    color: #333333;
-    text-decoration: none;
-}
-
-.about-lnk:hover {
-    color: #cd3d00;
-}
-
-
 /* ********** CONTACT SECTION ********** */
 
 .skyline-img {
@@ -522,7 +489,9 @@ a {
 
 .footer-logo {
     float: right;
-    padding: 7px 0 0 0 14px;
+    padding: 7px 14px 0px 14px;
+    position: relative;
+    height: 30px;
 }
 
 
@@ -597,5 +566,11 @@ a {
     }
     .contact-section {
         padding-bottom: 150px;
+    }
+    /* FOOTER SECTION */
+    .copyright {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
