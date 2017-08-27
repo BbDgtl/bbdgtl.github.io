@@ -20,35 +20,34 @@ button {
 
 /* Style the logo */
 
+.navigation {
+    width: 100%;
+}
+
+.logos {
+    width: 20%;
+}
+
 .nav-logo {
     padding: 7px 14px 0px 14px;
+    position: relative;
+    height: 30px;
 }
 
 
 /* Style the links */
 
-.links-container,
-.navigation-link {
+#links-container {
     float: right;
-    display: block;
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 7px 14px 7px 14px;
     color: #333333;
-    text-align: center;
-    padding: 4px 14px 0px 14px;
     text-decoration: none;
     font-size: 17px;
     font-variant: small-caps;
-}
-
-
-/* Change the color of links on hover */
-
-.links-container a:hover {
-    color: #cd3d00;
-}
-
-.nav-logo {
-    width: 175px;
-    height: 30px;
 }
 
 
@@ -158,7 +157,9 @@ button {
 }
 
 .cv-parent {
-    padding-top: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
 }
 
 .cv-btn {
@@ -255,26 +256,26 @@ button {
 }
 
 .form {
-    text-align: center;
-    padding-left: 200px;
-    margin: 0 auto;
-    width: 500px;
-}
-
-.form textarea {
-    display: block;
+    position: absolute;
     width: 100%;
 }
 
-.left {
-    float: left;
-    width: 60%;
+#name {
+    width: 48%;
+}
+
+#email {
+    width: 48%;
+    margin-left: 3%;
+}
+
+.form textarea {
+    display: inline-block;
+    width: 100%;
 }
 
 .right {
-    float: left;
-    padding-top: 70px;
-    padding-left: 15px;
+    text-align: center;
 }
 
 .form button {
@@ -286,7 +287,6 @@ button {
     border: #cd3d00;
     border-style: solid;
     border-width: 2px;
-    margin-top: 10px;
 }
 
 .contact-btn:hover {
@@ -302,12 +302,17 @@ button {
 
 /* ********** FOOTER CONTENT ********** */
 
+.footer {
+    width: 100%;
+}
+
 .copyright {
     float: left;
     padding: 7px 14px 0px 14px;
 }
 
 .social-media {
+    float: left;
     color: #333333;
     padding: 0px 20px 0 20px;
 }
@@ -315,4 +320,87 @@ button {
 .footer-logo {
     float: right;
     padding: 7px 14px 0px 14px;
+    position: relative;
+    height: 30px;
+}
+
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 1024px) {
+    /* NAVBAR CHANGES */
+    .second-logo {
+        display: none;
+    }
+    /* CONTACT SECTION */
+    .condensed2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* NAVBAR CHANGES */
+    .main-logo {
+        display: none;
+    }
+    /* BIOGRAPHY */
+    .column-1 {
+        width: 100%;
+    }
+    .column-2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /* SKILLS SECTION */
+    #languages {
+        display: inline;
+    }
+    .cv-btn {
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        bottom: 0;
+        color: #cd3d00;
+        line-height: 1em;
+        background-color: #f5f3eb;
+    }
+    /* FAVORITES */
+    .favorites-wrapper {
+        display: none;
+    }
+    /* FORM */
+    .form {
+        position: absolute;
+        width: 100%;
+    }
+    #name {
+        width: 100%;
+    }
+    #email {
+        width: 100%;
+        margin: 0;
+    }
+    .form textarea {
+        display: inline-block;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .form button {
+        font-family: Raleway, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        color: #f5f3eb;
+        line-height: 1em;
+        background-color: #cd3d00;
+        border-style: solid;
+        border-width: 2px;
+    }
+    .condensed {
+        display: none;
+    }
+    /* FOOTER SECTION */
+    .copyright {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
