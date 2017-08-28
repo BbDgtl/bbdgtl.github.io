@@ -14,46 +14,52 @@ button {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cd3d00;
+}
+
 
 /* ********* NAVIGATION BAR ********** */
 
 
 /* Style the logo */
 
+.navigation {
+    width: 100%;
+}
+
+.logos {
+    width: 20%;
+}
+
 .nav-logo {
     padding: 7px 14px 0px 14px;
+    position: relative;
+    height: 30px;
 }
 
 
 /* Style the links */
 
-.links-container,
-.navigation-link {
+#links-container {
     float: right;
-    display: block;
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 7px 14px 7px 14px;
     color: #333333;
-    text-align: center;
-    padding: 4px 14px 0px 14px;
     text-decoration: none;
     font-size: 17px;
     font-variant: small-caps;
 }
 
 
-/* Change the color of links on hover */
-
-.links-container a:hover {
-    color: #cd3d00;
-}
-
-.nav-logo {
-    width: 175px;
-    height: 30px;
-}
-
-a {
-    text-decoration: none;
-}
+/* ********** END Navbar ********** */
 
 
 /* ********** HERO CONTENT ********** */
@@ -120,9 +126,8 @@ a {
     transition: background-color .5s ease-out;
 }
 
-.prototype-btn {
-    padding-top: 20px;
-    padding-right: 28px;
+.hero-btn {
+    width: 200px;
 }
 
 
@@ -134,7 +139,7 @@ a {
     max-width: 60%;
     margin: 0 auto;
     position: relative;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .picnic-dsc-ap {
@@ -184,7 +189,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .problem-ap {
@@ -192,7 +197,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 px 0;
 }
 
 
@@ -236,7 +241,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .solution-ap {
@@ -263,16 +268,13 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
-}
-
-.graph {
-    width: 100%;
+    padding: 50px 0 50px 0;
 }
 
 .graph-img {
+    width: 100%;
     text-align: center;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 
@@ -287,7 +289,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .user-ap {
@@ -295,7 +297,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .user-title {
@@ -306,12 +308,15 @@ a {
 /* Personas */
 
 .personas-container {
-    height: 800px;
+    width: 100%;
 }
 
 .personas-img {
     text-align: center;
-    padding-top: 95px;
+}
+
+.personas-section {
+    padding: 50px;
 }
 
 
@@ -326,24 +331,20 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .competitor-title {
     font-weight: 200;
 }
 
-.competitor-container2 {
-    height: 500px;
-}
-
-.competitor-container2-ap {
-    height: 675px;
-}
-
 .competitor-img {
     text-align: center;
-    padding-top: 100px;
+}
+
+.competitor-section {
+    background-color: #f5f3eb;
+    padding: 50px;
 }
 
 
@@ -351,7 +352,8 @@ a {
 
 .info-arch {
     width: 100%;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
+    background-color: #dcdad3;
 }
 
 .info-title {
@@ -367,44 +369,42 @@ a {
 
 .info-container {
     background-color: #dcdad3;
-    width: 100%;
-}
-
-.information-ap {
-    background-color: #dcdad3;
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 100px 0 100px 0;
-}
-
-.information-section-ap {
-    padding: 100px 0 100px 0;
-    text-align: center;
-    width: 80%;
-}
-
-.info-imgs {
-    display: inline-block;
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px 0 50px 0;
 }
 
-.userflow-img {
-    text-align: center;
-    padding: 50px 0 100px 0;
+.images-container {
+    vertical-align: middle;
 }
 
-.information-img {
-    padding: 25px;
-    float: left;
+#img1 {
+    padding-right: 10px;
+}
+
+#img2 {
+    padding-left: 10px;
 }
 
 .information-img-ap {
-    float: left;
-    padding: 25px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* USERFLOW IMG */
+
+#userflow {
+    padding-top: 50px;
+}
+
+
+/* INFO ARCHITECTURE PT 2 */
+
+.info-desc2 {
+    background-color: #dcdad3;
+    padding: 50px
 }
 
 
@@ -412,7 +412,7 @@ a {
 
 .mockups-img {
     text-align: center;
-    margin: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
 }
 
 
@@ -423,19 +423,14 @@ a {
 }
 
 .design {
-    color: #333333;
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .design-title {
     font-weight: 200;
-}
-
-.design-desc {
-    font-size: 24px;
 }
 
 
@@ -443,28 +438,24 @@ a {
 
 .sketches-container {
     width: 100%;
-    text-align: center;
+    padding: 50px;
 }
 
 .sketch-imgs {
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
-    padding: 100px 0 100px 0;
+    text-align: center;
 }
 
-.sketch-img1 {
-    padding: 25px 25px 25px 80px;
-    float: left;
+#sketch1 {
+    padding-right: 10px;
 }
 
-.sketch-img2 {
-    padding: 25px;
-    float: left;
+#sketch2 {
+    padding: 0 10px 0 10px;
 }
 
-.sketch-img3 {
-    padding: 25px;
+#sketch3 {
+    padding-left: 10px;
 }
 
 
@@ -472,16 +463,16 @@ a {
 
 .design-container2 {
     background-color: #dcdad3;
+    width: 100%;
 }
 
 .design2 {
     color: #333333;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 60px;
-    height: 300px;
+    padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
 }
 
 
@@ -489,13 +480,13 @@ a {
 
 .mindmap-img {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .styleguide-img {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 
@@ -503,6 +494,7 @@ a {
 
 .prototype-container {
     background-color: #dcdad3;
+    padding: 50px;
 }
 
 .prototype {
@@ -510,7 +502,7 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .prototype-title {
@@ -522,10 +514,13 @@ a {
 }
 
 
+/* MOIEN - CLICKABLE PROTOTYPE */
+
+
 /* MOIEN */
 
-.apantry-img {
-    background-image: url("../images/Apantry-1280x500.png");
+.moien-img {
+    background-image: url("../images/Moien-1280x500.png");
     margin: 0 auto;
     padding: 0;
     height: 500px;
@@ -536,7 +531,7 @@ a {
     position: relative;
 }
 
-.apantry-img:hover > .overlay {
+.moien-img:hover > .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -603,10 +598,88 @@ a {
 }
 
 
+/* A PANTRY */
+
+.apantry-img {
+    background-image: url("../images/Apantry-1280x500.png");
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.apantry-img:hover > .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: .75;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.overlay {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.project-title {
+    float: left;
+    padding: 7px 14px 7px 14px;
+    color: #f5f3eb;
+}
+
+.project-type {
+    float: right;
+    padding: 25px 14px 7px 14px;
+    color: #f5f3eb;
+}
+
+.description {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f3eb;
+}
+
+.case-study-btn {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #f5f3eb;
+    line-height: 1em;
+    border: #cd3d00;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.case-study-btn:hover {
+    background-color: #cd3d00;
+    border: none;
+    color: #f5f3eb;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+
 /* THE CONCLUSION */
 
 .conclusion-container {
-    background-color: #dcdad3;
+    background-color: #f5f3eb;
+    padding: 50px;
 }
 
 .conclusion {
@@ -614,7 +687,6 @@ a {
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
 }
 
 .conclusion-title {
@@ -634,7 +706,7 @@ a {
 }
 
 .contact-container {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 60%;
     text-align: center;
     margin: 0 auto;
@@ -672,12 +744,17 @@ a {
 
 /* ********** FOOTER CONTENT ********** */
 
+.footer {
+    width: 100%;
+}
+
 .copyright {
     float: left;
     padding: 7px 14px 0px 14px;
 }
 
 .social-media {
+    float: left;
     color: #333333;
     padding: 0px 20px 0 20px;
 }
@@ -685,4 +762,180 @@ a {
 .footer-logo {
     float: right;
     padding: 7px 14px 0px 14px;
+    position: relative;
+    height: 30px;
+}
+
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (min-width: 1024px) {
+    /* NAVBAR CHANGES */
+    .second-logo {
+        display: none;
+    }
+    /* CONTACT SECTION */
+    .condensed2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* NAVBAR CHANGES */
+    .main-logo {
+        display: none;
+    }
+    /* HERO */
+    .hero-title {
+        font-size: 3em;
+    }
+    .hero-btn {
+        background-color: #ED2939;
+    }
+    /* PICNIC DESCRIPTION */
+    .picnic-dsc {
+        font-size: 1em;
+    }
+    .picnic-content {
+        height: 300px;
+    }
+    .desktop-ap {
+        height: 300px;
+    }
+    .problem-title {
+        font-size: 1.75em;
+    }
+    .problem {
+        font-size: 1em;
+    }
+    /* ONBOARDING  IMG */
+    .moien-onboard {
+        height: 300px;
+    }
+    .graph-img {
+        height: 300px;
+    }
+    /* THE SOLUTION */
+    .solution-title {
+        font-size: 1.75em;
+    }
+    .solution {
+        font-size: 1em;
+    }
+    /* RESEARCH CONTAINER */
+    .research-title {
+        font-size: 1.5em;
+    }
+    .research {
+        font-size: 1em;
+    }
+    /* KNOW YOUR USER */
+    .user-title {
+        font-size: 1.75em;
+    }
+    .user {
+        font-size: 1em;
+    }
+    /* PERSONAS & COMPETITOR ANALYSIS */
+    img.resize {
+        max-width: 100%;
+    }
+    .personas-container {
+        margin: 0;
+        padding: 50px 0 50px 0;
+    }
+    /* KNOW YOUR COMPETITOR */
+    .competitor-title {
+        font-size: 1.5em;
+    }
+    .competitor {
+        font-size: 1em;
+    }
+    /* INFORMATION ARCHITECTURE */
+    .info-title {
+        font-size: 1.5em;
+    }
+    .info {
+        font-size: 1em;
+    }
+    /* INFO GRAPHS */
+    .images-container {
+        display: inline;
+    }
+    #img1,
+    #img2 {
+        padding: 0;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #userflow {
+        height: 300px;
+    }
+    #balsamiq {
+        height: 300px;
+    }
+    /* VISUAL DESIGN */
+    .design-title {
+        font-size: 1em;
+    }
+    .design-desc {
+        font-size: 1em;
+    }
+    /* SKETCHES */
+    #sketch1,
+    #sketch2,
+    #sketch3 {
+        padding: 0;
+    }
+    .design2 {
+        font-size: 1em;
+    }
+    /* MINDMAP & STYLEGUIDE */
+    #mindmap {
+        height: 300px;
+    }
+    #styleguid {
+        height: 300px;
+    }
+    /* PROTOTYPE */
+    .prototype-title {
+        font-size: 1.75em;
+    }
+    .prototype-desc {
+        font-size: 1em;
+    }
+    /* CLICKABLE PROTOTYPE */
+    .moien-img {
+        display: none;
+    }
+    .apantry-img {
+        display: none;
+    }
+    /* CONCLUSION */
+    .conclusion-container {
+        background-color: #f5f3eb;
+    }
+    .conclusion-title {
+        font-size: 1.75em;
+    }
+    .conclusion {
+        font-size: 1em;
+    }
+    /* CONTACT SECTION */
+    .contact-txt {
+        font-size: 1em;
+    }
+    .contact-btn {
+        width: 200px;
+        margin: 5px;
+        background-color: #cd3c00;
+        border: none;
+    }
+    /* FOOTER SECTION */
+    .copyright {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
