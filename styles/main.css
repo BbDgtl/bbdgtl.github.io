@@ -84,7 +84,7 @@ a {
     background-image: url("../images/Bridge-1280x600.png");
     margin: 0 auto;
     padding: 0;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ a {
 /* MOIEN - MOBILE */
 
 .moien-img2 {
-    background-image: url("../images/moien-hero.png");
+    background-image: url("../images/bleed1.png");
     margin: 0 auto;
     padding: 0;
     height: 500px;
@@ -346,7 +346,7 @@ a {
 /* AMERICAN PANTRY MOBILE */
 
 .apantry-img2 {
-    background-image: url("../images/apantry-dark.png");
+    background-image: url("../images/bleed2.png");
     margin: 0 auto;
     padding: 0;
     height: 500px;
