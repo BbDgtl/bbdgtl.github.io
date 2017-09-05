@@ -93,29 +93,18 @@ button {
 
 /* ********** BIOGRAPHY SECTION ********** */
 
-.biography {
-    height: 0 px;
-    overflow: hidden;
+.selfie {
+    float: right;
+    padding: 0 1em 0 1em;
 }
 
-.bio2 {
+.biography {
+    overflow: hidden;
     padding: 50px 0 50px 0;
     width: 60%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
-}
-
-.column-1 {
-    float: left;
-    width: 48%;
-    margin-left: 0;
-}
-
-.column-2 {
-    float: left;
-    width: 48%;
-    margin-left: 4%;
 }
 
 .skillz {
@@ -126,6 +115,7 @@ button {
 /* ********** SKILLS & TOOLS ********** */
 
 .skill-table {
+    clear: both;
     height: 0 px;
     overflow: hidden;
     background-color: #cd3d00;
@@ -343,14 +333,6 @@ button {
     .main-logo {
         display: none;
     }
-    /* BIOGRAPHY */
-    .column-1 {
-        width: 100%;
-    }
-    .column-2 {
-        text-align: center;
-        margin-bottom: 50px;
-    }
     /* SKILLS SECTION */
     #languages {
         display: inline;
@@ -402,5 +384,12 @@ button {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /* BIOGRAPHY */
+    .selfie {
+        width: 100%;
     }
 }

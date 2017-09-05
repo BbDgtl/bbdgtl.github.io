@@ -280,28 +280,12 @@ a:hover {
 
 /* KNOW YOUR USER */
 
-.user-container {
-    background-color: #dcdad3;
-}
-
-.user {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
-}
-
 .user-ap {
     color: #333333;
     font-size: 24px;
     max-width: 60%;
     margin: 0 auto;
     padding: 50px 0 50px 0;
-}
-
-.user-title {
-    font-weight: 200;
 }
 
 
@@ -322,22 +306,6 @@ a:hover {
 
 /* KNOW YOUR COMPETITOR */
 
-.competitor-container {
-    background-color: #dcdad3;
-}
-
-.competitor {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
-}
-
-.competitor-title {
-    font-weight: 200;
-}
-
 .competitor-img {
     text-align: center;
 }
@@ -350,32 +318,9 @@ a:hover {
 
 /* INFORMATION ARCHITECTURE */
 
-.info-arch {
-    width: 100%;
-    padding: 50px 0 50px 0;
-    background-color: #dcdad3;
-}
-
-.info-title {
-    font-weight: 200;
-}
-
-.info {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-}
-
 .info-container {
-    background-color: #dcdad3;
+    text-align: center;
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.images-container {
-    vertical-align: middle;
 }
 
 #img1 {
@@ -388,8 +333,6 @@ a:hover {
 
 .information-img-ap {
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -397,14 +340,6 @@ a:hover {
 
 #userflow {
     padding-top: 50px;
-}
-
-
-/* INFO ARCHITECTURE PT 2 */
-
-.info-desc2 {
-    background-color: #dcdad3;
-    padding: 50px
 }
 
 
@@ -422,28 +357,12 @@ a:hover {
     background-color: #dcdad3;
 }
 
-.design {
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
-}
-
-.design-title {
-    font-weight: 200;
-}
-
 
 /* SKETCHES */
 
 .sketches-container {
-    width: 100%;
-    padding: 50px;
-}
-
-.sketch-imgs {
-    width: 80%;
     text-align: center;
+    padding: 50px;
 }
 
 #sketch1 {
@@ -461,20 +380,6 @@ a:hover {
 
 /* VISUAL DESIGN */
 
-.design-container2 {
-    background-color: #dcdad3;
-    width: 100%;
-}
-
-.design2 {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
-    padding: 50px 0 50px 0;
-}
-
 
 /* VISUAL DESIGN PT3 */
 
@@ -491,27 +396,6 @@ a:hover {
 
 
 /* PROTOTYPE */
-
-.prototype-container {
-    background-color: #dcdad3;
-    padding: 50px;
-}
-
-.prototype {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
-}
-
-.prototype-title {
-    font-weight: 200;
-}
-
-.prototype-desc {
-    font-size: 24px;
-}
 
 
 /* MOIEN - CLICKABLE PROTOTYPE */
@@ -676,24 +560,6 @@ a:hover {
 
 
 /* THE CONCLUSION */
-
-.conclusion-container {
-    background-color: #f5f3eb;
-    padding: 50px;
-}
-
-.conclusion {
-    color: #333333;
-    font-size: 24px;
-    max-width: 60%;
-    margin: 0 auto;
-}
-
-.conclusion-title {
-    text-align: center;
-    font-size: 60px;
-    font-weight: 500;
-}
 
 
 /* ********** CONTACT SECTION ********** */
