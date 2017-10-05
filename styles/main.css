@@ -474,24 +474,30 @@ a {
 /* ********** FOOTER CONTENT ********** */
 
 .footer {
-    width: 100%;
+    position: relative;
 }
 
-.copyright {
-    float: left;
-    padding: 7px 14px 0px 14px;
+#copyright {
+    position: absolute;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#social-lnks {
+    color: #333333;
+    text-align: center;
 }
 
 .social-media {
-    color: #333333;
-    padding: 0px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 .footer-logo {
-    float: right;
-    padding: 7px 14px 0px 14px;
-    position: relative;
-    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    padding-right: 20px;
 }
 
 
