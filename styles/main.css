@@ -493,6 +493,10 @@ a {
     padding: 0 20px 0 20px;
 }
 
+#linkedIn {
+    width: 25px;
+}
+
 .footer-logo {
     position: absolute;
     right: 0;
