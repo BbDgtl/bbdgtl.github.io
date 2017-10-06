@@ -515,14 +515,11 @@ a {
     width: 30px;
 }
 
-.footer-logo {
+.footer-logo-main {
     position: absolute;
     right: 0;
     bottom: 7px;
     padding-right: 20px;
-}
-
-.footer-logo {
     width: 175px;
 }
 
@@ -604,5 +601,12 @@ a {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+    }
+    .footer-logo {
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        padding-right: 20px;
+        width: 30px;
     }
 }
