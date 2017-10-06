@@ -427,9 +427,9 @@ a {
 
 .skyline-img {
     /*    background-color: #002e66;*/
-    background-image: url(../images/Skyline_Test.png);
+    background-image: url(../images/Skyline_Test@2x.png);
+    background-size: cover;
     height: 500px;
-    width: 100%;
     position: relative;
 }
 
