@@ -494,7 +494,19 @@ a {
 }
 
 #linkedIn {
-    width: 25px;
+    width: 30px;
+}
+
+#gitHub {
+    width: 30px;
+}
+
+#dribl {
+    width: 30px;
+}
+
+#twitr {
+    width: 30px;
 }
 
 .footer-logo {
