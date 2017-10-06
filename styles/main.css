@@ -383,13 +383,13 @@ a {
 
 .project-title {
     float: left;
-    padding: 7px 14px 7px 14px;
+    padding: 7px 0px 7px 0px;
     color: #f5f3eb;
 }
 
 .project-type {
     float: right;
-    padding: 25px 14px 7px 14px;
+    padding: 25px 0px 0px 14px;
     color: #f5f3eb;
 }
 
@@ -571,9 +571,6 @@ a {
         display: none;
     }
     /* BOTH PROJECTS */
-    .project-title {
-        float: right;
-    }
     .case-study-btn {
         font-family: Raleway, Arial, Helvetica, sans-serif;
         font-size: 14px;
