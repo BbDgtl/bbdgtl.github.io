@@ -426,7 +426,8 @@ a {
 /* ********** CONTACT SECTION ********** */
 
 .skyline-img {
-    background-image: url("../images/Skyline-1280x500.png");
+    background-color: #002e66;
+    /*background-image: url("../images/Asset%2016@2x.png");*/
     height: 500px;
     width: 100%;
     position: relative;
@@ -470,6 +471,12 @@ a {
     margin-right: 20px;
 }
 
+#skyline {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
 
 /* ********** FOOTER CONTENT ********** */
 
@@ -480,7 +487,7 @@ a {
 #copyright {
     position: absolute;
     left: 0;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-left: 20px;
 }
 
