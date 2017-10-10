@@ -238,12 +238,12 @@ button {
 }
 
 #name {
-    width: 48%;
+    width: 49%;
 }
 
 #email {
-    width: 48%;
-    margin-left: 3%;
+    width: 49%;
+    float: right;
 }
 
 .form textarea {
