@@ -237,10 +237,6 @@ button {
     font-size: 18px;
 }
 
-.form {
-    position: absolute;
-}
-
 #name {
     width: 48%;
 }
