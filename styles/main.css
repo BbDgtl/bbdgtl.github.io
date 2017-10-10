@@ -544,6 +544,9 @@ a {
     }
 }
 
+
+/* Media Query to hide the 2nd copyright in the footer. */
+
 @media screen and (min-width: 941px) {
     #copyright2 {
         display: none;
