@@ -353,20 +353,13 @@ button {
 /* Media Query to hide the 2nd copyright in the footer. */
 
 @media screen and (min-width: 941px) {
+    #selfie-center {
+        display: none;
+    }
     #copyright2 {
         display: none;
     }
 }
-
-
-/*@media screen and (max-width: 414px) {
-    /* BIOGRAPHY */
-
-
-/*.selfie {
-        width: 100%;
-    }
-}*/
 
 @media screen and (max-width: 1024px) {
     /* NAVBAR CHANGES */
@@ -435,6 +428,9 @@ button {
 }
 
 @media screen and (max-width: 940px) {
+    .selfie {
+        display: none;
+    }
     #copyright {
         display: none;
     }
@@ -446,5 +442,11 @@ button {
     }
     .footer-logo {
         display: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .selfie-center {
+        width: 60%;
     }
 }
