@@ -544,6 +544,12 @@ a {
     }
 }
 
+@media screen and (min-width: 941px) {
+    #copyright2 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     /* NAVBAR CHANGES */
     .main-logo {
@@ -608,5 +614,20 @@ a {
         bottom: 7px;
         padding-right: 20px;
         width: 30px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #copyright {
+        display: none;
+    }
+    #copyright2 {
+        position: relative;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .second-logo {
+        display: none;
     }
 }
