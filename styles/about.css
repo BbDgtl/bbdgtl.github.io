@@ -448,5 +448,6 @@ button {
 @media screen and (max-width: 940px) {
     .selfie-center {
         width: 60%;
+        padding-bottom: 30px;
     }
 }
