@@ -526,7 +526,7 @@ a {
 
 /* ********** MEDIA QUERIES ********** */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     /* NAVBAR CHANGES */
     .second-logo {
         display: none;
