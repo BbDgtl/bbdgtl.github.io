@@ -385,7 +385,6 @@ button {
     }
     /* FORM */
     .form {
-        position: absolute;
         width: 100%;
     }
     #name {
