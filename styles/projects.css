@@ -611,25 +611,47 @@ a:hover {
 /* ********** FOOTER CONTENT ********** */
 
 .footer {
-    width: 100%;
+    position: relative;
 }
 
-.copyright {
-    float: left;
-    padding: 7px 14px 0px 14px;
+#copyright {
+    position: absolute;
+    left: 0;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+#social-lnks {
+    color: #333333;
+    text-align: center;
 }
 
 .social-media {
-    float: left;
-    color: #333333;
-    padding: 0px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
-.footer-logo {
-    float: right;
-    padding: 7px 14px 0px 14px;
-    position: relative;
-    height: 30px;
+#linkedIn {
+    width: 30px;
+}
+
+#gitHub {
+    width: 30px;
+}
+
+#dribl {
+    width: 30px;
+}
+
+#twitr {
+    width: 30px;
+}
+
+.footer-logo-main {
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    padding-right: 20px;
+    width: 175px;
 }
 
 
@@ -642,6 +664,15 @@ a:hover {
     }
     /* CONTACT SECTION */
     .condensed2 {
+        display: none;
+    }
+}
+
+
+/* Media Query to hide the 2nd copyright in the footer. */
+
+@media screen and (min-width: 941px) {
+    #copyright2 {
         display: none;
     }
 }
@@ -803,5 +834,27 @@ a:hover {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+    }
+    .footer-logo {
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        padding-right: 20px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #copyright {
+        display: none;
+    }
+    #copyright2 {
+        position: relative;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .footer-logo {
+        display: none;
     }
 }
