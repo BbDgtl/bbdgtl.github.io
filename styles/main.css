@@ -41,10 +41,6 @@ a {
 
 /* Style the logo */
 
-.navigation {
-    width: 100%;
-}
-
 .logos {
     width: 20%;
 }
@@ -474,6 +470,40 @@ a {
     width: 100%;
     bottom: 0;
     position: absolute;
+}
+
+
+/* ********** ////////// BACK TO TOP BUTTON STYLING \\\\\\\\\\ ********** */
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 50px;
+    /* Place the button at the bottom of the page */
+    right: 0px;
+    /* Place the button 100px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #cd3d00;
+    /* Set a background color */
+    color: #f5f3eb;
+    font-size: 20px;
+    font-weight: 500;
+    /* Text color */
+    cursor: pointer;
+    /* Some padding */
+    border-radius: 0px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
 }
 
 
