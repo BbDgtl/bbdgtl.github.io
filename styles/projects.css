@@ -26,6 +26,27 @@ a:hover {
 /* ********* NAVIGATION BAR ********** */
 
 
+/*********** BACK TO TOP *********** */
+
+.back-to-top {
+    background: none;
+    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #cd3d00;
+}
+
+.back-to-top i {
+    font-size: 60px;
+}
+
+
 /* Style the logo */
 
 .navigation {
