@@ -242,11 +242,15 @@ a:hover {
 }
 
 #name {
-    width: 49%;
+    width: 44%;
+}
+
+input {
+    margin: 10px auto;
 }
 
 #email {
-    width: 49%;
+    width: 44%;
     float: right;
 }
 
@@ -351,6 +355,9 @@ a:hover {
     /* CONTACT SECTION */
     .condensed2 {
         display: none;
+    }
+    .right {
+        text-align: right;
     }
 }
 
