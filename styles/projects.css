@@ -40,7 +40,11 @@ a:hover {
     z-index: 100;
     display: none;
     text-decoration: none;
-    color: #002e66;
+    color: #e9ad28;
+}
+
+.back-to-top:hover {
+    color: #e9ad28;
 }
 
 .back-to-top i {
