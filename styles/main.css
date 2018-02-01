@@ -366,6 +366,50 @@ a {
 }
 
 
+/* OCKHAM'S RAZOR */
+
+.ockhams-img {
+    background: black;
+    background-image: url("");
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* OCKHAM'S RAZOR MOBILE */
+
+.ockhams-img2 {
+    background: black;
+    background-image: url("");
+    margin: 0 auto;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ockhams-img:hover > .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: .75;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+
 /* BOTH */
 
 .overlay {
@@ -569,6 +613,9 @@ a {
     .apantry-img2 {
         display: none;
     }
+    .ockhams-img2 {
+        display: none;
+    }
     /* CONTACT SECTION CHANGES */
     .contact-msg2 {
         display: none;
@@ -608,6 +655,10 @@ a {
     }
     /* APANTRY SPECIFIC */
     .apantry-img {
+        display: none;
+    }
+    /* OCKHAM'S RAZOR SPECIFIC */
+    .ockhams-img {
         display: none;
     }
     /* BOTH PROJECTS */
