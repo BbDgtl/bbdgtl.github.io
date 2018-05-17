@@ -511,6 +511,12 @@ a:hover {
     transition: background-color .5s ease-out;
 }
 
+#prototype {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
 
 /* A PANTRY */
 
