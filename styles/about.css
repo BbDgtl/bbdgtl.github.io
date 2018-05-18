@@ -87,6 +87,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f5f3eb;
+    font-size: 40px;
 }
 
 .einstein {
