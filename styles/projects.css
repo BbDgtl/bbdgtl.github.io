@@ -333,6 +333,16 @@ a:hover {
     padding: 50px;
 }
 
+.resize {
+    width: 100%;
+}
+
+.resize2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 
 /* KNOW YOUR COMPETITOR */
 
