@@ -8,6 +8,7 @@ html {
     background-color: #f5f3eb;
     margin: 0px 0px;
     height: 100%;
+    font-size: .5em;
 }
 
 button {
@@ -92,7 +93,7 @@ a {
 /* Place the HERO TEXT in middle of image */
 
 #hero-title {
-    font-size: 90px;
+    font-size: 70px;
 }
 
 #hero-text {
@@ -102,7 +103,6 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f5f3eb;
-    font-size: 1em;
 }
 
 #hero-content {
