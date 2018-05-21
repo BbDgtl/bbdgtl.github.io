@@ -378,10 +378,6 @@ a:hover {
 
 /* USERFLOW IMG */
 
-#userflow {
-    padding-top: 50px;
-}
-
 
 /* BALSAMIQ MOCKUPS */
 
@@ -532,6 +528,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 50px;
 }
 
 
