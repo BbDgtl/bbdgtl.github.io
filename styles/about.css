@@ -164,6 +164,7 @@ a:hover {
     border: #f5f3eb;
     border-style: solid;
     border-width: 2px;
+    margin: 25px;
 }
 
 .cv-btn:hover {
