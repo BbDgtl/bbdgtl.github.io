@@ -111,6 +111,9 @@ a:hover {
     overflow: hidden;
 }
 
+
+/* The Hero Image for American Pantry */
+
 #hero-image-ap {
     background-image: url("../images/desktop-ap-dark.png");
     height: 100vh;
@@ -593,6 +596,10 @@ a:hover {
     font-weight: bold;
     font-size: 125px;
     margin: 0 auto;
+}
+
+.contact-links {
+    color: #fff;
 }
 
 .contact-links:hover {

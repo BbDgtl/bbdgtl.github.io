@@ -1,318 +1,347 @@
-    /* ********** TEMPORARY CONTENT PLACEHOLDERS ********* */
-    /*
-#gutters {
-    position: absolute;
-    float: left;
-    width: 200px;
-    height: 100vh;
-    background: #fff;
-    background: transparent;
+/* ********** TEMPORARY FONT IMPORT ********** */
+
+@import url("https://use.typekit.net/rbl2otm.css");
+
+/* ********** END TEMP FONT LINK ********** */
+
+
+/* ********** ////////// GLOBAL STYLING \\\\\\\\\\ ********** */
+
+body,
+html {
+    height: 100%;
 }
 
-#guttersRight {
+a {
+    text-decoration: none;
+}
+
+
+/* ********* NAVIGATION BAR ********** */
+
+.navigation {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.navigation-small {
+    display: none;
+}
+
+
+/* Style the logo */
+
+.nav-logo {
+    margin-left: 125px;
+    padding: 25px 14px 25px 0;
+    position: absolute;
+    height: 50px;
+}
+
+
+/* Style the title */
+
+#title {
+    font-family: bebas neue, sans-serif;
+    font-weight: 100;
+    font-style: book;
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-top: 35px;
+    left: 200px;
+    width: 30%;
+}
+
+
+/* Style the links */
+
+#links-container {
     position: absolute;
     right: 0;
-    width: 200px;
-    height: 100vh;
-    background: #fff;
-    background: transparent;
+    top: 0;
 }
-*/
-    /* ********** END TEMP PLACEHOLDERS ********** */
-    /* ********** TEMPORARY FONT IMPORT ********** */
-    
-    @import url("https://use.typekit.net/rbl2otm.css");
-    /* ********** END TEMP FONT LINK ********** */
-    /* ********** ////////// GLOBAL STYLING \\\\\\\\\\ ********** */
-    
-    body,
-    html {
-        height: 100%;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    /* ********* NAVIGATION BAR ********** */
-    
-    .navigation {
-        position: relative;
-        width: 100%;
-        height: 0;
-    }
-    /* Style the logo */
-    
-    .nav-logo {
-        margin-left: 125px;
-        padding: 25px 14px 25px 0;
-        position: absolute;
-        height: 50px;
-    }
-    /* Style the title */
-    
-    #title {
-        font-family: bebas neue, sans-serif;
-        font-weight: 100;
-        font-style: book;
-        font-size: 28px;
-        color: #fff;
-        text-align: left;
-        position: relative;
-        padding-top: 35px;
-        left: 200px;
-        width: 30%;
-    }
-    /* Style the links */
-    
-    #links-container {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    
-    .navigation-link {
-        display: inline-block;
-        padding: 35px 10px 0 2px;
-        font-family: automate OT, sans-serif;
-        font-style: normal;
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 14px;
-        font-variant: caps;
-    }
-    
-    .navigation-link:hover {
-        color: #fff;
-        border-bottom: 5px solid #fff;
-    }
-    /* ********** HERO CONTENT ********** */
-    /* The Hero Image */
-    
-    #hero-image {
-        background-image: url("../images/luxBridge.jpg");
-        filter: brightness(70%);
-        margin: 0 auto;
-        padding: 0;
-        height: 100vh;
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-    }
-    /* Place the HERO TEXT in middle of image */
-    
-    #rightArrow {
-        position: relative;
-        top: 200px;
-        right: 75px;
-    }
-    
-    .side-labels {
-        position: absolute;
-        top: 225px;
-        right: -13px;
-    }
-    
-    .label-style {
-        font-family: automate ot, sans-serif;
-        font-size: .9em;
-        font-weight: 100;
-        color: #fff;
-    }
-    
-    .next-page {
-        position: absolute;
-        color: #fff;
-        height: 50px;
-        top: 250px;
-        right: 0;
-    }
-    
+
+.navigation-link {
+    display: inline-block;
+    padding: 35px 10px 0 2px;
+    font-family: automate OT, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-variant: caps;
+}
+
+.navigation-link:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+
+/* ********** HERO CONTENT ********** */
+
+
+/* The Hero Image */
+
+#hero-image {
+    background-image: url("../images/luxBridge.jpg");
+    filter: brightness(70%);
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+
+/* Place the HERO TEXT in middle of image */
+
+#rightArrow {
+    position: relative;
+    top: 200px;
+    right: 75px;
+}
+
+.side-labels {
+    position: absolute;
+    top: 225px;
+    right: -13px;
+}
+
+.label-style {
+    font-family: automate ot, sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.next-page {
+    position: absolute;
+    color: #fff;
+    height: 50px;
+    top: 250px;
+    right: 0;
+}
+
+#hero-title {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: bold;
+    font-size: 175px;
+    margin: 0 auto;
+}
+
+#hero-text {
+    width: 70%;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.hero-content {
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+#hero-cta {
+    font-family: automate OT, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    font-variant: caps;
+}
+
+#cta {
+    text-decoration: none;
+    color: #cd3d00;
+}
+
+#cta:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+
+/* ********** ////////// FOOTER CONTENT \\\\\\\\\\ ********** */
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+
+#socialMediaIcons {
+    width: 200px;
+    position: absolute;
+}
+
+.white {
+    font-size: 1.75em;
+    padding: 0 10px 0 0;
+    color: #fff;
+}
+
+#copyright {
+    font-family: monsterrat, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+/* ********** ////////// MEDIA QUERIES \\\\\\\\\\ ********** */
+
+
+/* 1281px and higher */
+
+@media screen and (min-width: 1281px) {
     #hero-title {
-        font-family: Bebas Neue, sans-serif;
-        font-weight: bold;
-        font-size: 175px;
-        margin: 0 auto;
+        font-size: 200px;
     }
-    
-    #hero-text {
-        width: 70%;
-        text-align: left;
-        position: absolute;
-        top: 20%;
-        margin-left: 200px;
-        color: #fff;
-    }
-    
     .hero-content {
-        font-family: montserrat, sans-serif;
-        font-weight: 200;
-        font-size: 24px;
+        max-width: 75%;
+        font-size: 36px;
     }
-    
     #hero-cta {
-        font-family: automate OT, sans-serif;
-        font-style: normal;
-        font-weight: 200;
-        font-size: 16px;
-        font-variant: caps;
+        font-size: 18px;
     }
-    
-    #cta {
-        text-decoration: none;
-        color: #cd3d00;
-    }
-    
-    #cta:hover {
-        color: #fff;
-        border-bottom: 5px solid #fff;
-    }
-    /* ********** ////////// FOOTER CONTENT \\\\\\\\\\ ********** */
-    
-    #footer {
-        position: absolute;
-        width: 100%;
-        height: 0;
-        bottom: 0;
-        padding-bottom: 50px;
-    }
-    
-    #socialMediaIcons {
-        width: 200px;
-        position: absolute;
-    }
-    
     .white {
-        font-size: 1.75em;
-        padding: 0 10px 0 0;
-        color: #fff;
+        font-size: 2em;
+        padding: 0 15px 0 0;
     }
-    
-    #copyright {
-        font-family: monsterrat, sans-serif;
-        font-weight: 100;
-        font-size: 1em;
-        text-align: center;
+}
+
+
+/* 1280px and lower */
+
+@media screen and (max-width: 1280px) {
+    #rightArrow {
+        top: 75px;
+    }
+}
+
+
+/* 1024px and lower (ipad pro) */
+
+@media screen and (max-width: 1024px) {
+    #title {
+        width: 40%;
+    }
+    #hero-title {
+        font-size: 125px;
+    }
+    #hero-text {
+        width: 60%;
+    }
+}
+
+
+/* 768px and lower (ipad or similar) */
+
+@media screen and (max-width: 768px) {
+    #title {
+        display: none;
+    }
+    #hero-title {
+        font-size: 85px;
+    }
+    #hero-text {
+        width: 50%;
+    }
+}
+
+
+/* 414px and lower (iphone 8plus or similar) */
+
+@media screen and (max-width: 414px) {
+    #mobile-logo {
+        width: 100px;
         margin: 0 auto;
-        color: #fff;
+        padding-top: 50px;
     }
-    /* ********** ////////// MEDIA QUERIES \\\\\\\\\\ ********** */
-    /* 1280px and lower */
-    
-    @media screen and (max-width: 1280px) {
-        #rightArrow {
-            top: 75px;
-        }
+    .nav-logo-small {
+        position: relative;
+        height: 100px;
     }
-    /* 1024px and lower (ipad pro) */
-    
-    @media screen and (max-width: 1024px) {
-        #hero-title {
-            font-size: 125px;
-        }
-        #hero-text {
-            width: 60%;
-        }
+    .navigation {
+        display: none;
     }
-    /* 768px and lower (ipad or similar) */
-    
-    @media screen and (max-width: 768px) {
-        #title {
-            display: none;
-        }
-        #hero-title {
-            font-size: 85px;
-        }
-        #hero-text {
-            width: 50%;
-        }
+    .navigation-small {
+        display: contents;
     }
-    /* 414px and lower (iphone 8plus or similar) */
-    
-    @media screen and (max-width: 414px) {
-        #hero-image {
-            filter: brightness(50%)
-        }
-        .nav-logo {
-            margin-left: 20px;
-        }
-        #title {
-            display: none;
-        }
-        #links-container {
-            position: relative;
-            text-align: center
-        }
-        .navigation-link {
-            padding: 35px 10px 0 10px;
-        }
-        #hero-text {
-            top: 10%;
-            width: 80%;
-            padding: 10%;
-            margin: 0 auto;
-            text-align: center;
-        }
-        #hero-title {
-            font-size: 55px;
-        }
-        #rightArrow {
-            top: 400px;
-            right: 180px;
-        }
-        #socialMediaIcons {
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-            right: 0;
-        }
-        #copyright {
-            display: none;
-        }
+    #hero-image {
+        filter: brightness(50%)
     }
-    /* 375px and lower (iphone 6 or similar) */
-    
-    @media screen and (max-width: 375px) {
-        .hero-content {
-            font-size: 18px;
-        }
-        .navigation-link {
-            padding: 35px 0 0 0;
-        }
-        #hero-text {
-            top: 7%;
-        }
-        #rightArrow {
-            top: 500px;
-            right: 180px;
-        }
+    #title {
+        display: none;
     }
-    /* 360px and lower (Galaxy s5 or similar) */
-    
-    @media screen and (max-width: 375px) {
-        #hero-text {
-            top: 15%;
-        }
-        .hero-content {
-            font-size: 18px;
-        }
-        #rightArrow {
-            top: 225px;
-            right: 154px;
-        }
+    #links-container {
+        position: relative;
+        text-align: center
     }
-    /* 320px and lower (iphone5 or similar) */
-    
-    @media screen and (max-width: 375px) {
-        .nav-logo {
-            height: 40px
-        }
-        #hero-text {
-            top: 10%;
-        }
-        #rightArrow {
-            top: 200px;
-            right: 136px;
-        }
+    .navigation-link {
+        padding: 35px 10px 0 10px;
     }
+    #hero-text {
+        top: 28%;
+        width: 80%;
+        padding: 10%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #hero-title {
+        font-size: 55px;
+    }
+    #socialMediaIcons {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        right: 0;
+    }
+    #copyright {
+        display: none;
+    }
+    #rightArrow {
+        display: none;
+    }
+}
+
+
+/* 375px and lower (iphone X or similar) */
+
+@media screen and (max-width: 375px) {
+    #mobile-logo {
+        width: 100px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .nav-logo-small {
+        position: relative;
+        height: 100px;
+    }
+    .navigation {
+        display: none;
+    }
+    #hero-text {
+        height: 40%;
+        position: relative;
+    }
+    .hero-content {
+        font-size: 18px;
+    }
+    #rightArrow {
+        display: none;
+    }
+}
