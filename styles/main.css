@@ -263,7 +263,52 @@ a {
 }
 
 
-/* 414px and lower (iphone 8plus or similar) */
+/* 736px and lower (iphone 8plus or similar LANDSCAPE) */
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .nav-logo {
+        margin-left: 25px;
+        padding: 25px 14px 25px 0;
+        position: absolute;
+        height: 50px;
+    }
+    #title {
+        display: block;
+        text-align: left;
+        position: absolute;
+        padding-top: 28px;
+        left: 100px;
+        width: 50%;
+    }
+    #hero-text {
+        width: 75%;
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        margin-left: 100px;
+        color: #fff;
+    }
+    #hero-title {
+        font-size: 65px;
+    }
+    .hero-content {
+        font-size: 18px;
+    }
+    #hero-cta {
+        font-size: 12px;
+    }
+    .white {
+        font-size: 1.25em;
+        padding: 0 8px 0 0;
+    }
+    #rightArrow {
+        top: -50px;
+        right: 25px;
+    }
+}
+
+
+/* 414px and lower (iphone 8plus or similar PORTRAIT) */
 
 @media screen and (max-width: 414px) {
     #mobile-logo {
