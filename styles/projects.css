@@ -676,10 +676,132 @@ a:hover {
 /* 1024px and lower (ipad pro) */
 
 @media screen and (max-width: 1024px) {
+    /* HERO CONTENT */
     #hero-title {
-        font-size: 125px;
+        font-size: 100px;
     }
     #hero-text {
         width: 60%;
+    }
+    #title {
+        font-size: 24px;
+        width: 50%;
+    }
+    #bottomArrow {
+        bottom: 25px;
+        left: 50%;
+    }
+    .bottom-scroll {
+        transform: rotate(90deg);
+        height: 50px;
+        bottom: 0;
+        left: 0;
+    }
+    /* PICNIC DESCRIPTION */
+    .picnic-content {
+        height: 600px;
+    }
+    .picnic-dsc {
+        font-size: 20px;
+        max-width: 60%;
+        padding: 60px 0 60px 0;
+    }
+    /* THE PROBLEM AND SOLUTION */
+    #inline {
+        width: 60%;
+    }
+    .body-content {
+        font-size: 20px;
+    }
+    .one,
+    .two {
+        padding: 0;
+    }
+    /* USER RESEARCH */
+    .single-column-content {
+        max-width: 60%;
+    }
+    .body-content-black {
+        font-size: 20px;
+    }
+    .graph-img {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    /* KNOW YOUR USER */
+    .user-wrapper {
+        padding-top: 75px;
+    }
+    .personas-img {
+        width: 100%;
+        text-align: center;
+    }
+    .resize {
+        width: 30%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* KNOW YOUR COMPETITOR */
+    .competitors-img {
+        width: 100%;
+        text-align: center;
+    }
+    /* INFORMATION ARCHITECTURE */
+    .info-img {
+        margin: 0;
+    }
+    #img1 {
+        float: left;
+        padding-right: 25px;
+        padding-left: 200px;
+        width: 50%;
+    }
+    #info-content {
+        padding: 0;
+    }
+    /* VISUAL DESIGN */
+    .sketch {
+        width: 25%;
+        padding: 25px;
+        padding-top: 100px;
+    }
+    /* THE PROTOTYPE */
+    #parent {
+        width: 100%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+    #infocontent {
+        width: 60%;
+        padding-left: 200px;
+    }
+    #prototype-responsive {
+        text-align: center;
+    }
+    #prototype {
+        padding: 0;
+    }
+    /* THE CONCLUSION */
+    #conclusion-red {
+        height: 600px;
+    }
+    .conclusion {
+        padding-top: 100px;
+    }
+    /* CONTACT */
+    #responsive-black {
+        height: 600px;
+    }
+    .contact-text {
+        width: 60%;
+        padding-top: 100px;
+    }
+    .contact-title {
+        width: 100%;
+        font-size: 100px;
+    }
+    #contactLinks {
+        padding-top: 50px;
     }
 }
