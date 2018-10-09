@@ -42,7 +42,7 @@ a {
 
 /* Style the title */
 
-#title {
+.title {
     font-family: bebas neue, sans-serif;
     font-weight: 100;
     font-style: book;
@@ -230,20 +230,29 @@ a {
     #rightArrow {
         top: 75px;
     }
+    .title {
+        width: 50%;
+    }
 }
 
 
 /* 1024px and lower (ipad pro) */
 
 @media screen and (max-width: 1024px) {
-    #title {
-        width: 40%;
-    }
+    /* HERO CONTENT */
     #hero-title {
-        font-size: 125px;
+        font-size: 95px;
     }
     #hero-text {
+        padding-top: 30px;
         width: 60%;
+    }
+    .title {
+        font-size: 24px;
+        width: 50%;
+    }
+    .hero-content {
+        font-weight: 400;
     }
 }
 
@@ -251,7 +260,7 @@ a {
 /* 768px and lower (ipad or similar) */
 
 @media screen and (max-width: 768px) {
-    #title {
+    .title {
         display: none;
     }
     #hero-title {
@@ -329,7 +338,7 @@ a {
     #hero-image {
         filter: brightness(50%)
     }
-    #title {
+    .title {
         display: none;
     }
     #links-container {
@@ -357,34 +366,6 @@ a {
     }
     #copyright {
         display: none;
-    }
-    #rightArrow {
-        display: none;
-    }
-}
-
-
-/* 375px and lower (iphone X or similar) */
-
-@media screen and (max-width: 375px) {
-    #mobile-logo {
-        width: 100px;
-        margin: 0 auto;
-        padding-top: 50px;
-    }
-    .nav-logo-small {
-        position: relative;
-        height: 100px;
-    }
-    .navigation {
-        display: none;
-    }
-    #hero-text {
-        height: 40%;
-        position: relative;
-    }
-    .hero-content {
-        font-size: 18px;
     }
     #rightArrow {
         display: none;

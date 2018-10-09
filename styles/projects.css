@@ -670,6 +670,9 @@ a:hover {
         bottom: 0;
         left: 0;
     }
+    .contact-text {
+        padding-top: 250px;
+    }
 }
 
 
