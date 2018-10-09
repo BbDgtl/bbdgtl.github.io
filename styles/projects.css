@@ -673,8 +673,11 @@ a:hover {
         bottom: 0;
         left: 0;
     }
+    .responsive-black {
+        height: 600px;
+    }
     .contact-text {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 }
 
@@ -796,12 +799,12 @@ a:hover {
         padding-top: 100px;
     }
     /* CONTACT */
-    #responsive-black {
+    .responsive-black {
         height: 600px;
     }
     .contact-text {
         width: 60%;
-        padding-top: 100px;
+        padding-top: 200px;
     }
     .contact-title {
         width: 100%;

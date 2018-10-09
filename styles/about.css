@@ -60,7 +60,7 @@ a:hover {
     position: relative;
     padding-top: 35px;
     left: 200px;
-    width: 25%;
+    width: 50%;
 }
 
 
@@ -430,9 +430,6 @@ input {
 
 /* ********** FOOTER CONTENT ********** */
 
-
-/* ********** FOOTER CONTENT ********** */
-
 #footer {
     position: absolute;
     width: 100%;
@@ -472,3 +469,54 @@ input {
 
 
 /* ********** MEDIA QUERIES ********** */
+
+
+/* 1280px and lower */
+
+@media screen and (min-width: 1280px) {
+    .hero-title-ap {
+        line-height: .9;
+    }
+}
+
+
+/* 1024px and lower (ipad pro) */
+
+@media screen and (max-width: 1024px) {
+    /* HERO CONTENT */
+    #hero-title {
+        font-size: 100px;
+    }
+    #hero-text {
+        width: 60%;
+    }
+    #title {
+        font-size: 24px;
+        width: 50%;
+    }
+    #bottomArrow {
+        bottom: 25px;
+        left: 50%;
+    }
+    .bottom-scroll {
+        transform: rotate(90deg);
+        height: 50px;
+        bottom: 0;
+        left: 0;
+    }
+    /* CONTACT */
+    #responsive-black {
+        height: 600px;
+    }
+    .contact-text {
+        width: 60%;
+        padding-top: 100px;
+    }
+    .contact-title {
+        width: 100%;
+        font-size: 100px;
+    }
+    #contactLinks {
+        padding-top: 50px;
+    }
+}
