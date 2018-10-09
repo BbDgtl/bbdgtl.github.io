@@ -50,7 +50,7 @@ a:hover {
 
 /* Style the title */
 
-#title {
+.title {
     font-family: bebas neue, sans-serif;
     font-weight: 100;
     font-style: book;
@@ -60,7 +60,7 @@ a:hover {
     position: relative;
     padding-top: 35px;
     left: 200px;
-    width: 25%;
+    width: 50%;
 }
 
 
@@ -209,7 +209,7 @@ a:hover {
 .hero-cta {
     font-family: automate OT, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 16px;
     font-variant: caps;
     color: #cd3d00;
@@ -657,6 +657,9 @@ a:hover {
 /* 1280px and lower */
 
 @media screen and (min-width: 1280px) {
+    .hero-title-ap {
+        line-height: .9;
+    }
     #bottomArrow {
         bottom: 25px;
         left: 50%;
