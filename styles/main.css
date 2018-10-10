@@ -7,6 +7,11 @@
 
 /* ********** ////////// GLOBAL STYLING \\\\\\\\\\ ********** */
 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
 body,
 html {
     height: 100%;
@@ -241,7 +246,7 @@ a {
 @media screen and (max-width: 1024px) {
     /* HERO CONTENT */
     #hero-title {
-        font-size: 95px;
+        font-size: 120px;
     }
     #hero-text {
         padding-top: 30px;
@@ -257,17 +262,42 @@ a {
 }
 
 
+/* 812px and lower (iphonex landscape) */
+
+@media screen and (max-width: 812px) {
+    .title {
+        left: 100px;
+    }
+    .hero-content {
+        width: 80%;
+    }
+    #rightArrow {
+        display: none;
+    }
+    #extra {
+        display: none;
+    }
+    #copyright {
+        display: none;
+    }
+}
+
+
 /* 768px and lower (ipad or similar) */
 
 @media screen and (max-width: 768px) {
     .title {
-        display: none;
+        width: 40%;
+        left: 200px;
     }
     #hero-title {
-        font-size: 85px;
+        font-size: 95px;
     }
     #hero-text {
-        width: 50%;
+        width: 60%;
+    }
+    #extra {
+        display: contents;
     }
 }
 
@@ -399,6 +429,3 @@ a {
         font-size: 12px;
     }
 }
-
-
-/* ********** /////////// LANDSCAPE MODE MOBILE STYLING \\\\\\\\\\\ ********** */
