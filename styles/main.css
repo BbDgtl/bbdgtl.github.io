@@ -381,7 +381,7 @@ a {
 
 /* 320px and lower (iphone 5 or similar PORTRAIT) */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 320px) {
     #mobile-logo {
         display: none;
     }
@@ -399,3 +399,6 @@ a {
         font-size: 12px;
     }
 }
+
+
+/* ********** /////////// LANDSCAPE MODE MOBILE STYLING \\\\\\\\\\\ ********** */
