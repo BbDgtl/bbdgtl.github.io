@@ -323,13 +323,16 @@ a {
     #mobile-logo {
         width: 100px;
         margin: 0 auto;
-        padding-top: 50px;
+        padding-top: 100px;
     }
     .nav-logo-small {
         position: relative;
         height: 100px;
     }
-    .navigation {
+    .navigation-link {
+        font-weight: 400;
+    }
+    .nav-logo {
         display: none;
     }
     .navigation-small {
