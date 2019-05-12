@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liberty - Responsive One Page Template</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Ennonce-liberty/assets/fonts/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Exercice Week end : 
+      Integrate the PSD to a HTML and CSS website : liberty.psd
+      All the graphical ressources (images and fonts) are provided in 'assets'
+
+      Design spec: https://xd.adobe.com/spec/f1e67609-7f16-450d-5443-27b6a07a973c-87d7/
+      Mot de passe: Numer1call
+   -->
+  </head>
+
+  <body id="top">
+    <!-- Create the HTML code here -->
+    <header>
+      <nav id="navBar">
+        <p id="headerLogo">LIBERTY</p>
+        <ul id="navList">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#ourWorks">OUR WORKS</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#contact"><span id="contactSpan">CONTACT</span></a></li>
+        </ul>
+      </nav>
+      <div id="hero">
+        <img src="../Ennonce-liberty/assets/images/hero.png" class="bg" alt="hero image">
+      </div>
+      <div id="jumbotron">
+          <img src="../Ennonce-liberty/assets/images/logo.png" id="mainLogo" alt="Logo for Liberty Creative">
+          <h1 id="heroHeading">HELLO WE ARE LIBERTY </br> WE DO AMAZING THINGS EVERYDAY</h1>
+          <form action="#" method="post">
+            <input type="submit" value="CONTACT US">
+          </form>
+        </div>
+    </header>
+    <main>
+      <section id="ourWorks">
+        <h2 id="ourWorks">OUR WORKS</h2>
+        <p class="sectionIntro">Please enjoy a series of curated examples of our past, or current design projects. Case studies are available by clicking the image.</p>
+        <article id="works">
+          <a class="caseStudy" href="#"><img src="../Ennonce-liberty/assets/images/img-0.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-1.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-2.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-3.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-4.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-5.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-6.jpg" alt=""></a>
+          <a class="caseStudy"href="#"><img src="../Ennonce-liberty/assets/images/img-7.jpg" alt=""></a>
+        </article>
+      </section>
+      <section id="pricingTable">
+        <h2 id="pricing">PRICING TABLE</h2>
+        <p class="sectionIntro">We offer a comprehensive and affordable series of subscription services. Prices vary depending on your need. </p>
+        <div id="cardWrapper">
+          <article class="card"><div class="cardTitle">
+            <h3>Bronze</h3>
+            <p>$5/month</p>
+          </div>
+          <div class="bottomBorder">
+            <p>1 Account</p>
+          </div>
+          <div class="bottomBorder">
+            <p>1 Project</p>
+          </div>
+          <div class="bottomBorder">
+            <p>50K API Access</p>
+          </div>
+          <div class="bottomBorder">
+            <p>50MB Storage</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Custom Cloud Services</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Weekly Reports</p>
+          </div>
+            <form action="#" method="post">
+              <input class="signUpButton" type="submit" value="SIGN UP NOW">
+            </form>
+          </article>
+          <article class="card"><div class="cardTitle">
+            <h3>Silver</h3>
+            <p>$10/month</p>
+          </div>
+          <div class="bottomBorder">
+            <p>1 Account</p>
+          </div>
+          <div class="bottomBorder">
+            <p>3 Projects</p>
+          </div>
+          <div class="bottomBorder">
+            <p>100K API Access</p>
+          </div>
+          <div class="bottomBorder">
+            <p>100MB Storage</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Custom Cloud Services</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Weekly Reports</p>
+          </div>
+            <form action="#" method="post">
+              <input class="signUpButton" type="submit" value="SIGN UP NOW">
+            </form>
+          </article>
+          <article class="card" id="blueCardWrapper"><div class="blueCard cardTitle">
+            <h3>Gold</h3>
+            <p class="blueCard">$20/month</p>
+          </div>
+          <div class="bottomBorder">
+            <p>2 Accounts</p>
+          </div>
+          <div class="bottomBorder">
+            <p>5 Projects</p>
+          </div>
+          <div class="bottomBorder">
+            <p>100K API Access</p>
+          </div>
+          <div class="bottomBorder">
+            <p>200MB Storage</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Custom Cloud Services</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Weekly Reports</p>
+          </div>
+            <form action="#" method="post">
+              <input class="signUpButton" id="blueButton" type="submit" value="SIGN UP NOW">
+            </form>
+          </article>
+          <article class="card"><div class="cardTitle">
+            <h3>Diamond</h3>
+            <p>$35/month</p>
+          </div>
+          <div class="bottomBorder">
+            <p>5 Accounts</p>
+          </div>
+          <div class="bottomBorder">
+            <p>20 Projects</p>
+          </div>
+          <div class="bottomBorder">
+            <p>300K API Access</p>
+          </div>
+          <div class="bottomBorder">
+            <p>500MB Storage</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Custom Cloud Services</p>
+          </div>
+          <div class="bottomBorder">
+            <p>Weekly Reports</p>
+          </div>
+            <form action="#" method="post">
+              <input class="signUpButton" type="submit" value="SIGN UP NOW">
+            </form>
+          </article>
+        </section>
+        <section id=contactSection>
+          <h2 class="contactContent" id="contact">CONTACT US</h2>
+          <p class="sectionIntro2 contactContent">We love to get involved! Please feel free to contact us with any questions that you might have. We are always on the lookout for fresh talent, drop us a line if you think you have what it takes!</p>
+          <div id="contactForm">
+            <form>
+              <ul class="contactFormList">
+                <li>
+                  <textarea name="message" id="textArea" placeholder="Message"></textarea>
+                </li>
+                <li><input type="text" name="name" class="textInputs" placeholder="Name" />
+                </li>
+                <li>
+                  <input type="email" name="email" class="textInputs" placeholder="Email"/>
+                </li>
+                <li>
+                  <select name="select" class="field-select">
+                  <option value="Service">Service</option>
+                  </select>
+                  <input type="submit" value="Send" />
+                </li>
+              </ul>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a href="#top">
+        <div id="backToTop">
+          <i class="fas fa-angle-up"></i>
+        </div>
+      </a>
+      <p id="copyright">Copyright &#169; Liberty Creative, Inc. All rights reserved.</p> <p>Theme: Liberty 1.0.0. Designed by YoArts</p>
+      <div id="socialMedia">
+        <a href="www.facebook.com"><div id="facebookIcon" class="socialMediaIcons"><i class="fab fa-facebook-f"></i></div></a>
+        <a href="www.twitter.com"><div id="twitterIcon" class="socialMediaIcons"><i class="fab fa-twitter"></i></div></a>
+          <a href="www.google.com"><div id="googlePlusIcon" class="socialMediaIcons"><i class="fab fa-google-plus-g"></i></div></a>
+      </div>
+    </footer>
+    <!-- Keep this code at the end of the body -->
+    <!-- DO NOT DELETE -- scripts for scroll animations -- NE PAS SUPPRIMER -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("a[href*=#]").on("click", function() {
+          // Au clic sur un élément
+          var page = $(this).attr("href"); // Page cible
+          var speed = 500; // Durée de l'animation (en ms)
+          $("html, body").animate(
+            {
+              scrollTop: $(page).offset().top
+            },
+            speed,
+            "swing"
+          ); // Go
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,333 @@
+/* ////////// ********** RESETS ********** \\\\\\\\\\ */
+* {
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+*:not(input) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+section {
+    background-color: red;
+}
+article {
+    background-color: blue;
+}
+
+/* ////////// ********** GLOBAL STYLES ********** \\\\\\\\\\\ */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+nav {
+    position: fixed;
+}
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input {
+    border-style: none;
+}
+/* FONTS */
+h1, h2 {
+    font-family: 'poiret_oneregular', sans-serif;
+  }
+h2 {
+    font-size: 48px;
+    color: #333;
+}
+h3 {
+    font-family: 'HelveticaNeue', Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 50;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+p {
+    font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333;
+}
+article {
+    background-color: #fff;
+}
+.card {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.cardTitle {
+    background-color: #f3f3f3;
+    height: 150px;
+}
+.bottomBorder {
+    border-bottom: 1px solid lightgray;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+form {
+    padding-bottom: 25px;
+}
+/* ////////// ********** GENERAL STYLING ********** \\\\\\\\\\ */
+/* NAVBAR */
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #E74C3C;
+}
+#headerLogo {
+    padding-left: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    color: white;
+    padding-top: 13px;
+}
+#navList {
+    font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-top: 23px;
+    padding-right: 65px;
+    color: #fff;
+}
+nav li:hover {
+    border-bottom: 1px solid white;
+}
+footer {
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+/* HERO CONTENT */
+/* BACKGROUND IMG */
+/* #hero {
+    background-image: url(../assets/images/hero.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+header {
+    position: relative;
+}
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+}
+#jumbotron {
+    position: absolute;
+    top: 0;
+    margin-top: 70px;
+    width: 100%;
+}
+#mainLogo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px; 
+}
+#heroHeading {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 50px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+input[type=submit] { 
+    background-color: #E74C3C;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+input {
+    color: #fff;
+    font-family: 'HelveticaNeue' Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px; 
+}
+/* Main body styling */
+section {
+    padding-top: 100px;
+    background-color: #fff;
+    text-align: center;
+}
+.sectionIntro {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.sectionIntro2 {
+    padding-top: 25px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+#works {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.caseStudy {
+    margin: 20px;
+}
+#cardWrapper {
+    padding-top: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card {
+    width: 20%;
+}
+/* Style the table */
+#tableArticle {
+    margin-top: 50px;
+}
+input[type=submit].signUpButton {
+    width: 200px;
+    background-color: rgb(53, 64, 80);
+    border-radius: 5px;
+}
+.blueCard {
+    background-color:  rgb(95, 150, 216);
+    color: white;
+}
+#blueButton {
+    background-color:  rgb(95, 150, 216);
+}
+#blueCardWrapper {
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(95, 150, 216);
+    -moz-box-shadow: 0px 0px 5px 0px rgb(95, 150, 216);
+    box-shadow: 0px 0px 5px 0px rgb(95, 150, 216);
+}
+/* CONTACT SECTION */
+#contactSection {
+    background-color: rgb(53, 64, 80);;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+h2.contactContent {
+    padding-top: 50px;
+}
+.contactContent {
+    color: #fff;
+    margin-bottom: 50px;
+}
+/* Style the form */
+#messageBox {
+   width: 100px;
+   border-radius: 5px;
+   margin: 20px;
+}
+::placeholder {
+    padding: 10px;
+    font-size: 16px;
+}
+#contactForm {
+    width: 100%;
+}
+.contactFormList {
+    width: 80%;
+}
+#textArea {
+    width: 47%;
+    margin-left: 25px;
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+}
+.textInputs {
+    width: 47%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.field-select {
+    width: 37%;
+    height: 50px;
+    font-size: 16px;
+    color: gray;
+}
+.contactFormList input[type=submit], .contactFormList input[type=button]{
+    background: #e74c3c;
+    width: 100px;
+    margin: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+	color: #fff;
+}
+/* STYLE THE FOOTER */
+#backToTop {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin: 0 auto; 
+    transform: translateY(-50%);
+    background-color: #e74c3c;
+}
+#copyright {
+    padding-bottom: 15px;
+}
+.fas {
+    font-size: 50px;
+    color: #fff;
+    padding-top: 10px;
+}
+#socialMedia {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.socialMediaIcons {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin: 10px;
+}
+#facebookIcon {
+    background-color: #4267b2;
+}
+#twitterIcon {
+    background-color: #1ca1f2;
+}
+#googlePlusIcon {
+    background-color: #ec4235;
+}
+/* Quick n dirty media querie - This is used to center the bg img */
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
