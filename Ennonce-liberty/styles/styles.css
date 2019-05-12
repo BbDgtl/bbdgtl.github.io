@@ -23,9 +23,6 @@ a {
 ul {
     list-style: none;
 }
-nav {
-    position: fixed;
-}
 nav li {
     display: inline;
     padding-left: 10px;
@@ -185,9 +182,9 @@ section {
     margin: 0 auto;
 }
 #works {
-    max-width: 80%;
-    margin: 0 auto;
+    width: 80%;
     display: flex;
+    margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
