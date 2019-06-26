@@ -338,7 +338,11 @@ li {
 }
 
 #aboutPhoto {
+<<<<<<< HEAD
   width: 50%;
+=======
+  width: 25%;
+>>>>>>> ea1bd257325f12981e14f3dc7ebaa2233bf4fc22
   margin: auto;
   padding-right: 25px;
 }
