@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Tue May 07 2019 06:27:03 GMT+0000 (UTC)  -->
+<html
+  data-wf-page="5c6bdc473620cfb53270fcc2"
+  data-wf-site="5c6bdc473620cfb7c870fcbd"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Moien - A Food Truck App</title>
+    <meta content="Moien" property="og:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Moien" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="css/moien-a-food-truck-app.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Roboto:300,regular,500",
+            "Poppins:100,200,300,regular,500,600,700,800"
+          ]
+        }
+      });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+      !(function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="../../images/favicon.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link href="../../images/favicon.ico" rel="apple-touch-icon" />
+  </head>
+
+  <body>
+    <div
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      class="navigation-bar dark w-nav"
+    >
+      <a
+        href="../../index.html"
+        class="brand-link left-spacing w-nav-brand w--current"
+        ><img
+          src="images/Asset-3.png"
+          width="50"
+          height="50"
+          alt="Logo for Bobby Spencer"
+          class="image"
+      /></a>
+      <div class="navdiv">
+        <a href="../../index.html" class="navlinks">Home</a
+        ><a href="../../index.html#about" class="navlinks">About</a
+        ><a href="../../index.html#contact" class="navlinks">Contact<br />‍</a>
+      </div>
+    </div>
+    <div class="hero-section">
+      <img
+        src="images/Layer-1.png"
+        srcset="
+          images/Layer-1-p-500.png  500w,
+          images/Layer-1-p-800.png  800w,
+          images/Layer-1.png       1000w
+        "
+        sizes="100vw"
+        alt="Hero image for the portfolio project Moien, a case study for User Experience & User Interface Design"
+        class="image-2"
+      />
+      <div data-ix="fade-in-bottom-page-loads" class="heroheading w-container">
+        <h1 class="hero-heading">Moien - A Food Truck App</h1>
+        <div class="hero-subheading">
+          A mobile app to track and order meals from local food trucks.
+        </div>
+      </div>
+    </div>
+    <div class="section introduction">
+      <img
+        src="images/moien-picnic.png"
+        srcset="
+          images/moien-picnic-p-500.png   500w,
+          images/moien-picnic-p-800.png   800w,
+          images/moien-picnic-p-1080.png 1080w,
+          images/moien-picnic.png        1280w
+        "
+        sizes="100vw"
+        alt="A representation of the app on a picnic table for the UX/UI project by Bobby Spencer"
+        class="image-3"
+      />
+      <div class="introcontent w-container">
+        <div class="introsubheading introposition">
+          The rise of the food truck went from lowly “roach coaches” slinging
+          hot dogs on a street in NYC, to hip fusion “restaurants on wheels”.
+          They serve every flavor combination imaginable, and this can arguably
+          be attributed to the tech boom of recent years. With the introduction
+          of smartphones and social media, tech-savvy entrepreneurs revived an
+          old concept that took the streets by storm. However; somehow, the
+          opportunity to further connect the tech world’s relationship with the
+          food trucks parked outside of the office never really deepened.Moien
+          hopes to be that bridge; by giving users the opportunity to keep track
+          of their favorite trucks, and being able to order and pay before even
+          leaving their desks.
+        </div>
+      </div>
+    </div>
+    <div class="section visualdesign">
+      <div class="problemsolutioncontent w-container">
+        <div class="columns w-row">
+          <div
+            class="waterfall-image-column theproblem w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-tiny-stack"
+          >
+            <h2 class="section-heading introproblem">The Problem</h2>
+            <div class="introsubheading problem">
+              While there exists a surprising amount of food truck apps in the
+              mobile market, very few do little more than give you a list of
+              trucks that may or may not be up to date. The problem was to
+              create a simple, but well-designed application that tracks and
+              locates nearby food trucks on a map. This app should include
+              information about each truck, their menus, and give the user the
+              opportunity to read and leave reviews. In addition, Moien should
+              also have the ability for the user to order and pay from their
+              mobile device before even leaving the office.
+            </div>
+          </div>
+          <div
+            class="waterfall-content-column w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-tiny-stack"
+          >
+            <h2 class="section-heading introsolution">The Solution</h2>
+            <div class="introsubheading solution">
+              Moien delivers functionality in a clean and efficient way. With
+              the use of a simple onboarding system to quickly explain the
+              ordering process and the implementation of big, colorful buttons
+              in a flat design, it gives the user the opportunity to track,
+              search, favorite, review, order and pay with minimal fuss.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section onboard">
+      <img
+        src="images/moien-onboard.jpg"
+        srcset="
+          images/moien-onboard-p-500.jpeg   500w,
+          images/moien-onboard-p-800.jpeg   800w,
+          images/moien-onboard-p-1080.jpeg 1080w,
+          images/moien-onboard.jpg         1280w
+        "
+        sizes="100vw"
+        alt="A series of images representing the onboarding process for a UX UI project by Bobby Spencer"
+        class="image-4"
+      />
+    </div>
+    <div class="section userresearchsection">
+      <div class="userresearchcontainer w-container">
+        <div class="section-title-group">
+          <h2 class="section-heading centered userresearch">User Research</h2>
+          <div class="introsubheading center sasd-asd-as">
+            In order to understand where to begin, research was necessary, as
+            was the need to know who Moiens potential users would be. I
+            conducted a survey asking a series of questions about what people
+            wanted to see in an app like Moien. After formulating the questions,
+            I distributed the survey through User Testing and social media such
+            as Facebook, Slack, Twitter and Reddit. Through the survey, I
+            learned that 81% of people questioned currently use apps to order
+            food. They appreciated the ease of use and convenience, but would
+            like to have more options with less confusing functionality.
+          </div>
+        </div>
+        <img
+          src="images/graph.png"
+          srcset="
+            images/graph-p-500.png 500w,
+            images/graph-p-800.png 800w,
+            images/graph.png       886w
+          "
+          sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 728px, 908px"
+          alt="a representation of the UX research done for a UX/UI project by Bobby Spencer"
+          class="table"
+        />
+      </div>
+    </div>
+    <div class="section user">
+      <div class="container-5 w-container">
+        <div class="section-title-group">
+          <h2 class="section-heading centered">Know Your User</h2>
+          <div class="introsubheading center">
+            Using the data I gathered from the survey, I identified who Moiens
+            average users would be. I then created a series of unique personas
+            that would guide me in developing the app with the users interests
+            in mind. The 3 people I developed had one thing in common: they were
+            very busy people and often took the less healthy, or at least, less
+            satisfying option during lunch. I felt that I was on the right
+            track.
+          </div>
+          <div class="columns-2 w-row">
+            <div class="w-col w-col-6">
+              <img
+                src="images/EvelynG.png"
+                srcset="
+                  images/EvelynG-p-500.png   500w,
+                  images/EvelynG-p-800.png   800w,
+                  images/EvelynG-p-1080.png 1080w,
+                  images/EvelynG-p-1600.png 1600w,
+                  images/EvelynG-p-2000.png 2000w,
+                  images/EvelynG-p-2600.png 2600w,
+                  images/EvelynG-p-3200.png 3200w,
+                  images/EvelynG.png        6226w
+                "
+                sizes="(max-width: 479px) 87vw, (max-width: 767px) 92vw, (max-width: 991px) 354px, 460px"
+                alt="A user persona created by Bobby Spencer for a User Experience, User Interface Design project."
+                class="persona"
+              />
+            </div>
+            <div class="w-col w-col-6">
+              <img
+                src="images/CoryL.png"
+                srcset="
+                  images/CoryL-p-500.png   500w,
+                  images/CoryL-p-800.png   800w,
+                  images/CoryL-p-1080.png 1080w,
+                  images/CoryL.png        2200w
+                "
+                sizes="(max-width: 479px) 87vw, (max-width: 767px) 92vw, (max-width: 991px) 354px, 460px"
+                alt="A user persona created by Bobby Spencer for a User Experience, User Interface Design project."
+                class="persona"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section competitor">
+      <div class="container-5 w-container">
+        <div class="section-title-group">
+          <h2 class="section-heading centered">Know Your Competitor</h2>
+          <div class="introsubheading center">
+            It was at this point, that I needed to begin researching competitors
+            to find out what they did well, or didn&#x27;t do so great. I had
+            trouble finding any app that was really capable of implementing what
+            I was hoping for Moien to be, but I managed to narrow down the list
+            to 3. Only one of those apps gave a limited option to pay via the
+            app. All apps were limited to certain cities within the U.S. and
+            most were poorly designed and confusing to use.
+          </div>
+          <img
+            src="images/competitors.png"
+            alt=""
+            class="image-5"
+            alt="A representation of the UX/UI conducted on market competitors by Bobby Spencer for his User Experience, User Interface Design Proejct."
+          />
+        </div>
+      </div>
+    </div>
+    <div class="section infoacrchitecture">
+      <div class="userresearchcontainer w-container">
+        <div class="section-title-group infoarchitecture">
+          <h2 class="section-heading centered userresearch">
+            Information Architecture
+          </h2>
+          <div class="introsubheading center sasd-asd-as">
+            After gathering the data, it was time to start developing the
+            stories that would keep me on track during the design process. With
+            what I knew about my users via the survey and the personas, as well
+            as the information gathered via competitor analysis, I put together
+            User Stories to break down what I felt users would like to see in
+            this app.
+            <br />
+            <br />Afterwards, I created User Flows to manage the process of
+            moving through the application from a New User standpoint as well as
+            a Returning User&#x27;s standpoint. With the collected data and the
+            user flows, I created a very rough Wireframe on Balsamiq.
+          </div>
+        </div>
+        <img
+          src="images/User-Stories-1.png"
+          alt="A representation of the UX research conducted to create User Stories for a UX/UI project by Bobby Spencer"
+          class="image-6"
+        />
+      </div>
+    </div>
+    <div class="section visualdesign">
+      <div class="container-8 w-container">
+        <div class="section-title-group visualdesign">
+          <h2 class="section-heading centered">Visual Design</h2>
+          <div class="introsubheading center">
+            With what I had learned through user testing, I knew that I was on
+            the right track with the card system and large buttons, so I took
+            these answers to the sketchbook and began to flesh out the visual
+            design of the app. I created a series of sketches for icons, a log
+            and illustrations I wanted to include in the onboarding process.
+            <br />
+            <br />I utilized Mindmaps in order to truly flesh out the logo
+            design, to better understand what I would need to include in an
+            onboarding process. Obviously, since the name isn&#x27;t descriptive
+            about what the app does, there would need to be explanation and
+            descriptions involved. I also create an illustrated mindmap of the
+            name &quot;Moien&quot; so I could find a tagline that would work for
+            such a unique name.
+            <br />
+            <br />Afterwards, I began to play with color and typography. I knew
+            that I wanted to work with red because of its ability to invoke
+            hunger in studies, but I also I wanted some continuity in the name
+            Moien and it&#x27;s tagline, so I thought thay I&#x27;d use
+            Luxembourg&#x27;s national colors as subtly as possible.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section competitor illustrations">
+      <div class="container-5 imgs w-container">
+        <img
+          src="images/sketches1.png"
+          alt="A representation of the logo and visual design research conducted by Bobby Spencer for his UX/UI project"
+          class="moienimgs"
+        /><img
+          src="images/sketches2.png"
+          alt="A representation of the logo and visual design research conducted by Bobby Spencer for his UX/UI project"
+          class="moienimgs"
+        /><img
+          src="images/sketches3.png"
+          alt="A representation of the logo and visual design research conducted by Bobby Spencer for his UX/UI project"
+          class="moienimgs"
+        />
+      </div>
+    </div>
+    <div class="section infoacrchitecture prototype">
+      <div class="userresearchcontainer w-container">
+        <div id="container" class="section-title-group prototypetext">
+          <h2 class="section-heading centered userresearch">The Prototype</h2>
+          <div class="introsubheading center sasd-asd-as">
+            The visual design of the HiFi Mockups took much longer than
+            anticipated, having gone from 18 pages in Balsamiq to over 120 pages
+            in InVision, but I was satisfied with the look. I created another
+            series of tests with the HiFi mockup. While the overall design and
+            simplicity of use was generally welcome, some expressed confusion
+            about the swiping capabilities in the food truck section. I went
+            back in and removed some swiping options in order to keep it simple
+            and changed the last page of the onboarding screens to instruct the
+            user on how to add items to your &#x27;&#x27;lunch bag&#x27;&#x27;.
+          </div>
+        </div>
+        <iframe
+          width="438"
+          height="930"
+          src="//invis.io/JRNYORZX9DN"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="section visualdesign theconclusion">
+      <div class="conclusion w-container">
+        <div class="section-title-group visualdesign">
+          <h2 class="section-heading centered">The Conclusion</h2>
+          <div class="introsubheading center conclusionparagraph">
+            In conclusion, some aspects of Moien didn&#x27;t make the cut. I
+            imagined an application filled with gesture-implemented processes,
+            but user testing proved that seems too confusing for most. I
+            wasn&#x27;t surprised that flat design and the large, colorful
+            buttons worker well, as well as the card system while looking at
+            nearby food trucks. If I had the time, I would like to code out
+            Moien and create a fully functional interactive prototype that I
+            might be able to bring to developers.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section ending">
+      <div class="container-6 w-container">
+        <h1 class="heading">Like what you saw?</h1>
+        <div class="text-block contact">See the next project</div>
+        <a
+          href="../american_pantry/index.html"
+          class="link-2 contact contactlinks"
+          >HERE</a
+        >
+        <div class="text-block contact">Learn more about me</div>
+        <a href="../../index.html#about" class="link-2 contact contactlinks"
+          >HERE</a
+        >
+        <div class="text-block contact">Contact me</div>
+        <a href="../../index.html#contact" class="link-2 contact contactlinks"
+          >HERE</a
+        >
+      </div>
+    </div>
+    <div class="footer accent section-2">
+      <a href="index.html" class="link-block w-inline-block w-clearfix"
+        ><img src="images/Asset-3.png" width="50" alt="" class="image-9"
+      /></a>
+      <div id="w-node-4a8180c41603-3270fcc2" class="w-container">
+        <div class="footer-text">
+          2019 | All Rights Reserved | Website created by Bobby Spencer using
+          Webflow
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js"
+      type="text/javascript"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  </body>
+</html>

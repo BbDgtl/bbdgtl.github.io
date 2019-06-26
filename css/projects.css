@@ -1,0 +1,816 @@
+/* ********** TEMPORARY FONT IMPORT ********** */
+
+@import url("https://use.typekit.net/rbl2otm.css");
+
+/* ********** END TEMP FONT LINK ********** */
+
+
+/* ********** ////////// GLOBAL STYLING \\\\\\\\\\ ********** */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #cd3d00;
+}
+
+
+/*
+a:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+*/
+
+
+/* ********* NAVIGATION BAR ********** */
+
+.navigation {
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+
+/* Style the logo */
+
+.nav-logo {
+    margin-left: 125px;
+    padding: 25px 14px 25px 0;
+    position: fixed;
+    z-index: 9;
+    height: 50px;
+}
+
+
+/* Style the title */
+
+.title {
+    font-family: bebas neue, sans-serif;
+    font-weight: 100;
+    font-style: book;
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-top: 35px;
+    left: 200px;
+    width: 50%;
+}
+
+
+/* Style the links */
+
+#links-container {
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 35px 10px 0 2px;
+    font-family: automate OT, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-variant: caps;
+}
+
+.navigation-link:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.active {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+
+/* ********** HERO CONTENT ********** */
+
+
+/* The Hero Image for Moien */
+
+#hero-image {
+    background-image: url("../images/moien-hero%20copy.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* The Hero Image for American Pantry */
+
+#hero-image-ap {
+    background-image: url("../images/desktop-ap-dark.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Place the HERO TEXT in middle of image */
+
+.side-labels-l {
+    position: absolute;
+    top: 300px;
+    left: 45px;
+}
+
+.side-labels-l-ap {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+
+.side-labels {
+    position: absolute;
+    top: 300px;
+    right: 25px;
+}
+
+.side-labels-ap {
+    position: absolute;
+    top: 300px;
+    right: 45px;
+}
+
+.label-style {
+    font-family: automate ot, sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.next-page-l {
+    position: absolute;
+    transform: rotate(180deg);
+    color: #fff;
+    height: 50px;
+    top: 325px;
+    left: 40px;
+}
+
+.next-page {
+    position: absolute;
+    color: #fff;
+    height: 50px;
+    top: 325px;
+    right: 40px;
+}
+
+.hero-title {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: bold;
+    font-size: 175px;
+    margin: 0 auto;
+}
+
+.hero-title-ap {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 70%;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.hero-content {
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    width: 45%;
+}
+
+.hero-cta {
+    font-family: automate OT, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    font-variant: caps;
+    color: #cd3d00;
+}
+
+#cta {
+    text-decoration: none;
+}
+
+
+/* Scroll Down Icon */
+
+#bottomArrow {
+    position: relative;
+}
+
+.bottom-labels {
+    position: absolute;
+    bottom: 60px;
+    left: 612px;
+}
+
+.bottom-scroll {
+    position: absolute;
+    transform: rotate(90deg);
+    height: 50px;
+    bottom: 25px;
+    left: 625px;
+}
+
+
+/* ********** Moien - Description ********** */
+
+.picnic-dsc {
+    font-family: monsterrat, sans-serif;
+    font-weight: 200;
+    color: #fff;
+    font-size: 24px;
+    max-width: 68%;
+    margin: 0 auto;
+    position: relative;
+    padding: 150px 0 100px 0;
+}
+
+.picnic-dsc-ap {
+    font-family: monsterrat, sans-serif;
+    font-weight: 200;
+    color: #fff;
+    font-size: 24px;
+    max-width: 68%;
+    margin: 0 auto;
+    position: relative;
+    padding: 200px 0 100px 0;
+}
+
+.footnote {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.picnic-content {
+    background-image: url("../images/moien-picnic-dark.png");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.picnic-content-ap {
+    background-image: url("../images/laptop-ap-dark.png");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* THE PROBLEM & THE SOLUTION */
+
+.red {
+    background: #ec2c3c;
+    width: 100%;
+    height: 800px;
+}
+
+.red-ap {
+    background: #c30001;
+    width: 100%;
+    height: 800px;
+}
+
+.blue-ap {
+    background: #002e66;
+    width: 100%;
+    height: 800px;
+}
+
+#inline {
+    width: 68%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+
+.one,
+.two {
+    width: 100%;
+    margin: 20px;
+    padding: 25px 0 25px 0;
+}
+
+.one-ap,
+.two-ap {
+    width: 100%;
+    margin: 20px;
+    padding: 120px 0 25px 0;
+}
+
+.title-content {
+    color: #fff;
+    font-family: bebas neue, sans-serif;
+    font-weight: 400;
+}
+
+.body-content {
+    color: #fff;
+    font-family: monsterrat, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+
+/* ONBOARD */
+
+.moien-onboard {
+    background-image: url("../images/moien-onboard.jpg");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.moien-onboard-ap {
+    background-image: url("../images/macbook.png");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* USER RESEARCH */
+
+.research {
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+}
+
+.title-content-black-light {
+    color: #000000;
+    font-family: bebas neue, sans-serif;
+    font-weight: 100;
+}
+
+.body-content-black {
+    color: #000000;
+    font-family: monsterrat, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.single-column-content {
+    max-width: 68%;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+}
+
+.single-column-content-ap {
+    max-width: 68%;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+}
+
+.graph {
+    width: 100%;
+}
+
+.graph-img {
+    width: 68%;
+    margin: 0 auto;
+}
+
+
+/* KNOW YOUR USER */
+
+.title-content-light {
+    color: #fff;
+    font-family: bebas neue, sans-serif;
+    font-weight: 200;
+}
+
+
+/* Personas */
+
+.personas-img {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.resize {
+    width: 33%;
+}
+
+.user-wrapper {
+    padding-top: 75px;
+}
+
+.user-wrapper-ap {
+    padding-top: 85px;
+}
+
+
+/* KNOW YOUR COMPETITOR */
+
+.blue {
+    background: #069fde;
+    width: 100%;
+    height: 800px;
+}
+
+.red-competitor-ap {
+    background: #c30001;
+    width: 100%;
+    height: 1000px;
+}
+
+.competitors-img {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.competitor-wrapper {
+    padding-top: 20px;
+}
+
+.competitor-wrapper-ap {
+    padding-top: 45px;
+}
+
+
+/* INFORMATION ARCHITECTURE */
+
+.info-img {
+    width: 68%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#img1 {
+    float: left;
+    padding-right: 25px;
+}
+
+#info-content {
+    padding: 0;
+}
+
+.research-ap {
+    background-color: #fff;
+    width: 100%;
+    height: 900px;
+}
+
+
+/* VISUAL DESIGN */
+
+.single-column-content-ap-visualDesign {
+    max-width: 68%;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+}
+
+
+/* SKETCHES */
+
+.blue-sketches {
+    background: #069fde;
+    width: 100%;
+    height: 600px;
+}
+
+.sketches-container {
+    text-align: center;
+}
+
+.sketch {
+    padding-top: 125px;
+}
+
+.sketch-ap {
+    padding-top: 95px;
+}
+
+
+/* PROTOTYPE */
+
+.apantry-series {
+    background-image: url("../images/desktop-ap.png");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#invisionLink:hover {
+    color: #cd3d00;
+    border-bottom: 5px solid #cd3d00;
+}
+
+
+/* MOIEN - CLICKABLE PROTOTYPE */
+
+#parent {
+    width: 68%;
+    height: 1050px;
+    margin: 0 auto;
+}
+
+#infocontent {
+    float: left;
+    width: 40%;
+    padding-top: 7%;
+}
+
+#prototype {
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+#prototype-ap {
+    padding-top: 200px;
+    height: 600px;
+}
+
+
+/* THE CONCLUSION */
+
+.conclusion {
+    padding-top: 175px;
+}
+
+
+/* ********** CONTACT SECTION ********** */
+
+.black {
+    background: #000000;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.contact-text {
+    width: 68%;
+    text-align: left;
+    position: relative;
+    margin-left: 200px;
+    padding-top: 350px;
+    color: #fff;
+}
+
+.contact-title {
+    font-family: Bebas Neue, sans-serif;
+    font-weight: bold;
+    font-size: 125px;
+    margin: 0 auto;
+}
+
+.contact-links {
+    color: #fff;
+}
+
+.contact-links:hover {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+
+/* ********** ////////// FOOTER CONTENT \\\\\\\\\\ ********** */
+
+
+/* ********** FOOTER CONTENT ********** */
+
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 50px;
+}
+
+#socialMediaIcons {
+    position: absolute;
+    width: 200px;
+}
+
+.white {
+    font-size: 2em;
+    padding: 0 10px 0 10px;
+    color: #fff;
+}
+
+#copyright {
+    width: 100px;
+    font-family: monsterrat, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    color: #fff;
+}
+
+.footer-logo {
+    position: absolute;
+    right: 125px;
+    bottom: -33px;
+    height: 50px;
+    padding: 0;
+}
+
+
+/* ********** MEDIA QUERIES ********** */
+
+
+/* 1280px and lower */
+
+@media screen and (min-width: 1280px) {
+    .hero-title-ap {
+        line-height: .9;
+    }
+    #bottomArrow {
+        bottom: 25px;
+        left: 50%;
+    }
+    .bottom-labels {
+        display: none;
+    }
+    .bottom-scroll {
+        transform: rotate(90deg);
+        height: 50px;
+        bottom: 0;
+        left: 0;
+    }
+    .responsive-black {
+        height: 600px;
+    }
+    .contact-text {
+        padding-top: 150px;
+    }
+}
+
+
+/* 1024px and lower (ipad pro) */
+
+@media screen and (max-width: 1024px) {
+    /* HERO CONTENT */
+    #hero-title {
+        font-size: 100px;
+    }
+    #hero-text {
+        width: 60%;
+    }
+    #title {
+        font-size: 24px;
+        width: 50%;
+    }
+    #bottomArrow {
+        bottom: 25px;
+        left: 50%;
+    }
+    .bottom-scroll {
+        transform: rotate(90deg);
+        height: 50px;
+        bottom: 0;
+        left: 0;
+    }
+    /* PICNIC DESCRIPTION */
+    .picnic-content {
+        height: 600px;
+    }
+    .picnic-dsc {
+        font-size: 20px;
+        max-width: 60%;
+        padding: 60px 0 60px 0;
+    }
+    /* THE PROBLEM AND SOLUTION */
+    #inline {
+        width: 60%;
+    }
+    .body-content {
+        font-size: 20px;
+    }
+    .one,
+    .two {
+        padding: 0;
+    }
+    /* USER RESEARCH */
+    .single-column-content {
+        max-width: 60%;
+    }
+    .body-content-black {
+        font-size: 20px;
+    }
+    .graph-img {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    /* KNOW YOUR USER */
+    .user-wrapper {
+        padding-top: 75px;
+    }
+    .personas-img {
+        width: 100%;
+        text-align: center;
+    }
+    .resize {
+        width: 30%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* KNOW YOUR COMPETITOR */
+    .competitors-img {
+        width: 100%;
+        text-align: center;
+    }
+    /* INFORMATION ARCHITECTURE */
+    .info-img {
+        margin: 0;
+    }
+    #img1 {
+        float: left;
+        padding-right: 25px;
+        padding-left: 200px;
+        width: 50%;
+    }
+    #info-content {
+        padding: 0;
+    }
+    /* VISUAL DESIGN */
+    .sketch {
+        width: 25%;
+        padding: 25px;
+        padding-top: 100px;
+    }
+    /* THE PROTOTYPE */
+    #parent {
+        width: 100%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+    #infocontent {
+        width: 60%;
+        padding-left: 200px;
+    }
+    #prototype-responsive {
+        text-align: center;
+    }
+    #prototype {
+        padding: 0;
+    }
+    /* THE CONCLUSION */
+    #conclusion-red {
+        height: 600px;
+    }
+    .conclusion {
+        padding-top: 100px;
+    }
+    /* CONTACT */
+    .responsive-black {
+        height: 600px;
+    }
+    .contact-text {
+        width: 60%;
+        padding-top: 200px;
+    }
+    .contact-title {
+        width: 100%;
+        font-size: 100px;
+    }
+    #contactLinks {
+        padding-top: 50px;
+    }
+}
